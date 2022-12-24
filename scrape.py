@@ -52,6 +52,16 @@ browser.get(url)
 job_details: List = []
 
 
+def cancel_modal():
+    browser.find_elements(By.CLASS_NAME, "react-job-listing")[0].click()
+    browser.implicitly_wait(5)
+
+    modal_cancel = WebDriverWait(browser, 5).until(
+        EC.element_to_be_clickable((By.CSS_SELECTOR, '[alt="Close"]'))
+    )
+    modal_cancel.click()
+
+
 def click_stale_element(element: WebElement):
     checker = True
     while checker:
@@ -146,14 +156,7 @@ def scrape_pages():
             break
 
 
-browser.find_elements(By.CLASS_NAME, "react-job-listing")[0].click()
-browser.implicitly_wait(5)
-
-modal_cancel = WebDriverWait(browser, 5).until(
-    EC.element_to_be_clickable((By.CSS_SELECTOR, '[alt="Close"]'))
-)
-modal_cancel.click()
-
+cancel_modal()
 scrape_pages()
 
 df = pd.DataFrame(data=job_details)
