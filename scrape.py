@@ -66,7 +66,7 @@ def locate_stale_element(element, driver, strategy: str, selector: str):
     checker = True
     while checker:
         try:
-            element = WebDriverWait(driver, 10).until(
+            element = WebDriverWait(driver, timeout).until(
                 EC.visibility_of_element_located((strategy, selector))
             )
             checker = False
