@@ -152,3 +152,4 @@ while next_button.is_enabled() or prev_button.is_enabled():
 df = pd.DataFrame(data=job_details)
 df.to_csv("dataset.csv")
 print(df)
+browser.quit()
