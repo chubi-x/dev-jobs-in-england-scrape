@@ -1,5 +1,8 @@
-import time
+from re import search
+from typing import List
+import pandas as pd
 from selenium import webdriver
+from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 chrome_options = Options();
