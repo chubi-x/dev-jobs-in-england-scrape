@@ -160,6 +160,6 @@ cancel_modal()
 scrape_pages()
 
 df = pd.DataFrame(data=job_details)
-df.to_csv("dataset.csv")
+df.to_csv("dataset.csv", mode="a")
 print(df)
 browser.quit()
