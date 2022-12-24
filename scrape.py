@@ -124,6 +124,28 @@ def extract_job_details(job_cards: List["WebElement"], jobs_list: List):
         jobs_list.append(job)
 
 
+def scrape_pages():
+    prev_button: WebElement = WebDriverWait(browser, timeout).until(
+        EC.presence_of_element_located(
+            (By.CSS_SELECTOR, '[data-test="pagination-prev"]')
+        )
+    )
+    next_button: WebElement = WebDriverWait(browser, timeout).until(
+        EC.presence_of_element_located(
+            (By.CSS_SELECTOR, '[data-test="pagination-next"]')
+        )
+    )
+    # keep running till the last page is reached
+    while next_button.is_enabled() or prev_button.is_enabled():
+        job_cards = browser.find_elements(By.CLASS_NAME, "react-job-listing")
+        extract_job_details(job_cards, job_details)
+        click_stale_element(next_button)
+        try:
+            WebDriverWait(browser, timeout).until(EC.url_changes(browser.current_url))
+        except TimeoutException:
+            break
+
+
 browser.find_elements(By.CLASS_NAME, "react-job-listing")[0].click()
 browser.implicitly_wait(5)
 
@@ -132,22 +154,7 @@ modal_cancel = WebDriverWait(browser, 5).until(
 )
 modal_cancel.click()
 
-job_details: List = []
-prev_button: WebElement = WebDriverWait(browser, timeout).until(
-    EC.presence_of_element_located((By.CSS_SELECTOR, '[data-test="pagination-prev"]'))
-)
-next_button: WebElement = WebDriverWait(browser, timeout).until(
-    EC.presence_of_element_located((By.CSS_SELECTOR, '[data-test="pagination-next"]'))
-)
-# keep running till the last page is reached
-while next_button.is_enabled() or prev_button.is_enabled():
-    job_cards = browser.find_elements(By.CLASS_NAME, "react-job-listing")
-    extract_job_details(job_cards, job_details)
-    click_stale_element(next_button)
-    try:
-        WebDriverWait(browser, timeout).until(EC.url_changes(browser.current_url))
-    except TimeoutException:
-        break
+scrape_pages()
 
 df = pd.DataFrame(data=job_details)
 df.to_csv("dataset.csv")
