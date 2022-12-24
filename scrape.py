@@ -46,7 +46,7 @@ job_keywords = [
 timeout = 10
 chrome_options = Options()
 chrome_options.add_experimental_option("detach", True)
-url = "https://www.glassdoor.co.uk/Job/frontend-web-developer-jobs-SRCH_KO0,22.htm"
+url = "https://www.glassdoor.co.uk/Job/backend-jobs-SRCH_KO0,7.htm"
 browser = webdriver.Chrome(options=chrome_options)
 browser.get(url)
 job_details: List = []

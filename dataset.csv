@@ -959,3 +959,904 @@
 897,Frontend Developer - Spain (Remote),Remote,NA,"['frontend', 'cloud', 'react']"
 898,Front End Developer,"Milton Keynes, England",£40K - £42K (Employer Est.),['frontend']
 899,Frontend Developer,"Bristol, England",£46K - £61K (Glassdoor Est.),['frontend']
+,title,location,salary,skills
+0,Backend Developer,"Edinburgh, Scotland",£40K - £70K (Employer Est.),['backend']
+1,Backend Developers (joining our Community),"London, England",£58K - £75K (Glassdoor Est.),['backend']
+2,Junior Developer,"Gateshead, England",£26K (Employer Est.),[]
+3,Backend Engineer,"Newcastle upon Tyne, England",£45K - £55K (Employer Est.),[]
+4,Junior Backend Developer - Smart Pear,"London, England",£52K - £55K (Glassdoor Est.),[]
+5,Backend Developer,"London, England",£70K (Employer Est.),['backend']
+6,Backend Developer - PHP,,£40K - £45K (Employer Est.),['backend']
+7,Backend Developer,"London, England",NA,"['frontend', 'testing']"
+8,Backend Developer,"Croydon, England",£52K - £62K (Glassdoor Est.),['devops']
+9,Backend Developer,"London, England",£54K - £59K (Employer Est.),['backend']
+10,Backend Developer,"Guildford, England",£47K - £51K (Glassdoor Est.),['backend']
+11,Backend Developer,"Manchester, England",£46K - £51K (Glassdoor Est.),[]
+12,Backend Engineer - Python,"London, England",£57K - £73K (Glassdoor Est.),"['sql', 'docker', 'python']"
+13,Backend Developer,Remote,£45K - £60K (Employer Est.),['backend']
+14,Software Engineer,,£25K (Employer Est.),[]
+15,Backend Engineer,"London, England",£45K - £80K (Employer Est.),[]
+16,Senior Backend Engineer,Remote,£100K (Employer Est.),"['backend', 'javascript', 'typescript', 'testing', 'java']"
+17,Backend Developer,"London, England",£35K - £50K (Employer Est.),"['javascript', 'java']"
+18,Backend Engineer – Receive & Account tribe,"London, England",£80K - £115K (Employer Est.),[]
+19,Software Engineer,"London, England",£700 (Employer Est.),[]
+20,Software Engineering Summer Intern (12 weeks),"London, England",£60K - £77K (Glassdoor Est.),[]
+21,Senior backend engineer- fully remote,Remote,NA,[]
+22,"Backend Developer (Java, Middle)","London, England",£58K - £75K (Glassdoor Est.),['java']
+23,Backend Developer,"London, England",£70K (Employer Est.),"['react', 'node', 'graphql']"
+24,Backend Engineer (Python),"London, England",£77K - £115K (Glassdoor Est.),['backend']
+25,Backend Engineer [Remote - UK],"London, England",£50K - £73K (Glassdoor Est.),"['frontend', 'backend']"
+26,Operations Assistant,"Grays, England",£9.00 - £10.00 Per Hour(Employer Est.),['sass']
+27,Information Security Analyst (Internship),"London, England",NA,[]
+28,Backend Developer,"Sunderland, North East England, England",£25K - £45K (Employer Est.),['backend']
+29,Remote Backend Engineer (Europe),,NA,"['css', 'java', 'express', 'python']"
+30,Backend Software Engineer (Internship),"London, England",NA,[]
+31,Python Software Engineer (Internship),"London, England",NA,[]
+32,Backend Developer,"Bolton, England",£40K - £55K (Employer Est.),['backend']
+33,Backend Developer,"Bath, England",£31K - £42K (Glassdoor Est.),"['backend', 'javascript', 'java']"
+34,Backend Engineer,"London, England",£78K - £92K (Glassdoor Est.),['java']
+35,Backend Engineer (Node.js) Spain,Remote,NA,"['backend', 'cloud', 'node']"
+36,Backend Developer,Remote,NA,[]
+37,"Senior Backend Developer (Node.js, Javascript)","London, England",£60K - £75K (Employer Est.),[]
+38,Senior Backend Engineer – Billon Dollar AI Tech,"London, England",£100K - £120K (Employer Est.),['backend']
+39,Backend Developer,"Newport, Newport, Wales",£45K - £55K (Employer Est.),"['backend', 'typescript', 'node']"
+40,Junior Software Engineer (Backend),Remote,NA,['testing']
+41,Back-End Software Engineer,"Exeter, England",£40K - £49K (Employer Est.),"['backend', 'aws', 'cloud']"
+42,Founding Backend Engineer (f/m/x),"London, England",£80K - £120K (Employer Est.),[]
+43,Backend Developer,"London, England",£60K - £70K (Employer Est.),['backend']
+44,Java Developer,"Solihull, England",£25K - £32K (Employer Est.),"['backend', 'testing', 'java']"
+45,Backend Developer,"Batley, England",£45K - £60K (Employer Est.),"['frontend', 'vue']"
+46,Backend Node Developer,"London, England",£67K - £98K (Glassdoor Est.),"['backend', 'node']"
+47,Backend Engineer,Remote,NA,['java']
+48,Software Engineering Internship 2023,"Cambridge, East of England, England",£12.50 Per Hour(Employer Est.),[]
+49,Backend Software Developer,"Leicester, England",£48K - £76K (Glassdoor Est.),[]
+50,"Senior Software Engineer, Backend (Reddit X, Chat-EMEA)","London, England",£77K - £85K (Glassdoor Est.),[]
+51,Backend Engineer (EMEA Remote),United Kingdom,NA,[]
+52,Backend Software Engineer,"London, England",£78K - £85K (Glassdoor Est.),"['backend', 'testing']"
+53,Senior Laravel Developer,"London, England",£55K - £80K (Employer Est.),[]
+54,Backend Software Engineer,"London, England",£33K - £42K (Glassdoor Est.),"['backend', 'cloud', 'java', 'python']"
+55,Backend Developer,"Glasgow, Scotland",£36K - £51K (Glassdoor Est.),"['cloud', 'node']"
+56,Backend Developer,"Preston, North West England, England",£22K - £26K (Employer Est.),['backend']
+57,Backend Software Developer,"Glasgow, Scotland",£54K - £64K (Glassdoor Est.),['backend']
+58,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+59,Software Engineering Intern,"London, England",NA,['cloud']
+60,Backend Engineer (Node.js) Spain,"Cambourne, England",£30K - £55K (Employer Est.),"['backend', 'cloud', 'node']"
+61,Back-End Software Engineer,"Exeter, England",£40K - £49K (Employer Est.),"['backend', 'cloud', 'node']"
+62,"Senior Backend Developer (Node.js, Javascript)","Reading, England",£60K - £75K (Employer Est.),"['backend', 'aws', 'cloud']"
+63,"Junior Software Engineer (C#, SQL)",,NA,['sql']
+64,Senior Javascript Developer,Remote,£70K - £80K (Employer Est.),[]
+65,"Senior Software Engineer, Backend (Reddit X, Chat-EMEA)","London, England",£77K - £85K (Glassdoor Est.),[]
+66,Software Engineering Intern - Summer 2023 (Viator),"Oxford, England",£50K - £95K (Glassdoor Est.),[]
+67,Backend Engineer,Remote,NA,['devops']
+68,Node.JS Backend Developer,United Kingdom,NA,"['backend', 'node']"
+69,Software Engineer - Backend Services / Scala - Node.JS,"London, England",£63K - £75K (Glassdoor Est.),['backend']
+70,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+71,Software Engineering Intern,"London, England",NA,['cloud']
+72,JavaScript Developer,Remote,£25K (Employer Est.),"['javascript', 'aws', 'cloud', 'java']"
+73,Senior Node.js Engineer – Greenfield – £120k,"London, England",£90K - £120K (Employer Est.),"['backend', 'node']"
+74,Software Engineer - Your Return to Tech - Java,Remote,£35K - £70K (Employer Est.),"['backend', 'java']"
+75,Backend Developer,Remote,NA,[]
+76,Backend Engineer (Go/Node.js) - Mental Health Startup (Remote UK only),"London, England",£50K - £60K (Employer Est.),['backend']
+77,Backend Software Engineer,"London, England",£33K - £42K (Glassdoor Est.),"['backend', 'cloud', 'java', 'python']"
+78,Backend Developer,Remote,£50K - £57K (Employer Est.),['java']
+79,"Senior Backend Engineer, Europe - Remote","London, England",£55K - £98K (Glassdoor Est.),[]
+80,Software Engineer - Java Backend,"London, England",£42K - £66K (Glassdoor Est.),['cloud']
+81,Backend Software Developer,"Glasgow, Scotland",£54K - £64K (Glassdoor Est.),['backend']
+82,Junior Software Engineer,"London, England",£46K - £73K (Glassdoor Est.),['cloud']
+83,Senior Backend Engineer (Python),"London, England",£77K - £115K (Glassdoor Est.),['backend']
+84,Backend Engineer (EMEA Remote),United Kingdom,NA,[]
+85,ZSTID17 Tour Operator and Inventory Administrator Fully Remote WFH 30k per annum,Remote,£25K - £27K (Employer Est.),[]
+86,Backend Software Developer,"Leicester, England",£48K - £76K (Glassdoor Est.),[]
+87,Software Developer,"Edinburgh, Scotland",£30K - £35K (Employer Est.),['java']
+88,Software Developer - Backend (C#) - London,"London, England",£46K - £68K (Glassdoor Est.),['backend']
+89,"Senior Backend-Engineer C# (f/m/d) - London, Amsterdam or remote",Remote,NA,[]
+90,Backend Engineer (Go/Node.js) - Mental Health Startup (Remote UK only),"London, England",£50K - £60K (Employer Est.),['backend']
+91,"Junior Software Engineer (C#, SQL)",,NA,['sql']
+92,"Senior Backend-Engineer C# (f/m/d) - London, Amsterdam or remote",Remote,NA,[]
+93,Software Engineering Intern - Summer 2023 (Viator),"Oxford, England",£50K - £95K (Glassdoor Est.),[]
+94,Back-End Software Engineer,"Exeter, England",£40K - £49K (Employer Est.),"['backend', 'aws', 'cloud']"
+95,Software Engineer - Java Backend,"London, England",£42K - £66K (Glassdoor Est.),['cloud']
+96,Backend Engineer (Node.js) Spain,"Cambourne, England",£30K - £55K (Employer Est.),"['backend', 'cloud', 'node']"
+97,"Senior Software Engineer, Backend (Reddit X, Chat-EMEA)","London, England",£77K - £85K (Glassdoor Est.),[]
+98,Software Engineer - Backend Services / Scala - Node.JS,"London, England",£63K - £75K (Glassdoor Est.),['backend']
+99,"Senior Backend Developer (Node.js, Javascript)","Reading, England",£60K - £75K (Employer Est.),[]
+100,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+101,Software Developer - Backend (C#) - London,"London, England",£46K - £68K (Glassdoor Est.),['backend']
+102,Senior Javascript Developer,Remote,£70K - £80K (Employer Est.),[]
+103,Software Engineer - Your Return to Tech - Java,Remote,£35K - £70K (Employer Est.),"['backend', 'java']"
+104,JavaScript Developer,Remote,£25K (Employer Est.),"['javascript', 'aws', 'cloud', 'java']"
+105,Intern Software Engineer (Placement),"Belfast, Northern Ireland",£22K (Employer Est.),[]
+106,Senior Backend Developer - Node (100% Remote),Remote,NA,[]
+107,Senior Backend Engineer (Python),"London, England",£77K - £115K (Glassdoor Est.),['backend']
+108,"Senior Backend Engineer, Europe - Remote","London, England",£55K - £98K (Glassdoor Est.),[]
+109,Full-Stack Engineer,Remote,£55K (Employer Est.),[]
+110,Node.JS Backend Developer,United Kingdom,NA,"['backend', 'node']"
+111,Backend Software Developer,"Leicester, England",£48K - £76K (Glassdoor Est.),[]
+112,C# Software developer,Remote,£30K - £45K (Employer Est.),"['backend', 'cloud', 'testing', 'sql']"
+113,Frontend Software Engineer,Remote,NA,[]
+114,Junior Software Engineer,"London, England",£46K - £73K (Glassdoor Est.),['cloud']
+115,Mid-Senior Level Python Back-end Developer,Remote,£60K - £70K (Employer Est.),"['backend', 'python']"
+116,"Software Engineer - JavaScript, Node.js, Typescript","Manchester, England",£33K - £61K (Glassdoor Est.),"['backend', 'cloud']"
+117,Backend Engineer (EMEA Remote),United Kingdom,NA,[]
+118,Java Developer,"Solihull, England",£25K - £32K (Employer Est.),"['backend', 'testing', 'java']"
+119,Mid or Senior Rust Backend Developer (Multiple openings - remote possible),"London, England",£58K - £75K (Glassdoor Est.),[]
+120,"Senior Backend-Engineer C# (f/m/d) - London, Amsterdam or remote",Remote,NA,[]
+121,Backend Engineer (Go/Node.js) - Mental Health Startup (Remote UK only),"London, England",£50K - £60K (Employer Est.),['backend']
+122,Backend Engineer (Node.js) Spain,"Cambourne, England",£30K - £55K (Employer Est.),"['backend', 'cloud', 'node']"
+123,"Junior Software Engineer (C#, SQL)",,NA,['sql']
+124,Software Engineer - Backend Services / Scala - Node.JS,"London, England",£63K - £75K (Glassdoor Est.),['backend']
+125,Software Engineer - Java Backend,"London, England",£42K - £66K (Glassdoor Est.),['cloud']
+126,"Senior Backend Developer (Node.js, Javascript)","Reading, England",£60K - £75K (Employer Est.),[]
+127,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+128,Node.JS Backend Developer,United Kingdom,NA,"['backend', 'node']"
+129,"Senior Software Engineer, Backend (Reddit X, Chat-EMEA)","London, England",£77K - £85K (Glassdoor Est.),[]
+130,Intern Software Engineer (Placement),"Belfast, Northern Ireland",£22K (Employer Est.),[]
+131,Senior Backend Developer - Node (100% Remote),Remote,NA,[]
+132,Senior Backend Engineer (Python),"London, England",£77K - £115K (Glassdoor Est.),['backend']
+133,Frontend Software Engineer,Remote,NA,[]
+134,Software Engineer - Your Return to Tech - Java,Remote,£35K - £70K (Employer Est.),"['backend', 'java']"
+135,C# Software developer,Remote,£30K - £45K (Employer Est.),"['backend', 'cloud', 'testing', 'sql']"
+136,"2023 Summer Intern - C++ Software Engineering Intern, London","London, England",£50K - £72K (Glassdoor Est.),[]
+137,Mid or Senior Rust Backend Developer (Multiple openings - remote possible),"London, England",£58K - £75K (Glassdoor Est.),[]
+138,Frontend Engineer,"London, England",£46K - £70K (Glassdoor Est.),['frontend']
+139,Senior Backend Engineer - Node.js - London,"London, England",NA,[]
+140,Jr. Backend Engineer - Partners Tribe (UK),"London, England",£71K - £84K (Glassdoor Est.),['backend']
+141,"Senior Backend Engineer, Europe - Remote","London, England",£55K - £98K (Glassdoor Est.),[]
+142,Software Developer,"Glasgow, Scotland",£39K - £47K (Employer Est.),[]
+143,Senior Javascript Developer,Remote,£70K - £80K (Employer Est.),[]
+144,JavaScript Developer,Remote,£25K (Employer Est.),"['javascript', 'aws', 'cloud', 'java']"
+145,Backend Software Engineer,"Brighton, England",£38K - £55K (Glassdoor Est.),['backend']
+146,Software Engineering Manager,"London, England",£70K - £83K (Glassdoor Est.),[]
+147,Founding Frontend Engineer(f/m/x),"London, England",£80K - £120K (Employer Est.),[]
+148,Junior Software Engineer,"London, England",£46K - £73K (Glassdoor Est.),['cloud']
+149,Backend Software Engineer,"Edinburgh, Scotland",£60K - £66K (Glassdoor Est.),[]
+150,"Junior Software Engineer (C#, SQL)",,NA,['sql']
+151,Backend Engineer (Go/Node.js) - Mental Health Startup (Remote UK only),"London, England",£50K - £60K (Employer Est.),['backend']
+152,"Senior Backend-Engineer C# (f/m/d) - London, Amsterdam or remote",Remote,NA,[]
+153,Software Engineer - Backend Services / Scala - Node.JS,"London, England",£63K - £75K (Glassdoor Est.),['backend']
+154,Backend Engineer (Node.js) Spain,"Cambourne, England",£30K - £55K (Employer Est.),"['backend', 'cloud', 'node']"
+155,Software Engineer - Your Return to Tech - Java,Remote,£35K - £70K (Employer Est.),"['backend', 'java']"
+156,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+157,"Senior Backend Developer (Node.js, Javascript)","Reading, England",£60K - £75K (Employer Est.),[]
+158,Mid or Senior Rust Backend Developer (Multiple openings - remote possible),"London, England",£58K - £75K (Glassdoor Est.),[]
+159,Software Engineer - Java Backend,"London, England",£42K - £66K (Glassdoor Est.),['cloud']
+160,"2023 Summer Intern - C++ Software Engineering Intern, London","London, England",£50K - £72K (Glassdoor Est.),[]
+161,Senior Backend Developer - Node (100% Remote),Remote,NA,[]
+162,Founding Frontend Engineer(f/m/x),"London, England",£80K - £120K (Employer Est.),[]
+163,Frontend Software Engineer,Remote,NA,[]
+164,Node.JS Backend Developer,United Kingdom,NA,"['backend', 'node']"
+165,C# Software developer,Remote,£30K - £45K (Employer Est.),"['backend', 'cloud', 'testing', 'sql']"
+166,Frontend Engineer,"London, England",£46K - £70K (Glassdoor Est.),['frontend']
+167,Backend Engineer (Python),"London, England",£60K - £80K (Employer Est.),"['backend', 'python']"
+168,Backend Software Engineer,"Edinburgh, Scotland",£60K - £66K (Glassdoor Est.),[]
+169,Senior Backend Engineer - Node.js - London,"London, England",NA,[]
+170,"Senior Backend Engineer, Europe - Remote","London, England",£55K - £98K (Glassdoor Est.),[]
+171,Software Engineering Manager,"London, England",£70K - £83K (Glassdoor Est.),[]
+172,Jr. Backend Engineer - Partners Tribe (UK),"London, England",£71K - £84K (Glassdoor Est.),['backend']
+173,Senior Frontend Developer,"Oxford, England",£55K - £75K (Employer Est.),"['frontend', 'backend', 'html', 'css', 'javascript', 'cloud', 'react', 'testing', 'java', 'sass', 'angular', 'vue']"
+174,Back End Developer,"London, England",£45K - £80K (Employer Est.),"['backend', 'graphql']"
+175,Software Engineer Python Comp Sci,"London, England",£60K - £75K (Employer Est.),"['backend', 'sql', 'python']"
+176,Junior Software Engineer,"London, England",£46K - £73K (Glassdoor Est.),['cloud']
+177,Junior C#.NET Web Developer,"Preston, North West England, England",£24K (Employer Est.),['frontend']
+178,Mid-Senior Level Python Back-end Developer,Remote,£60K - £70K (Employer Est.),"['backend', 'python']"
+179,JAVA Backend Engineer,Remote,NA,['backend']
+180,"Junior Software Engineer (C#, SQL)",,NA,['sql']
+181,Backend Developer,"Edinburgh, Scotland",£40K - £70K (Employer Est.),['backend']
+182,Software Engineering Intern - Summer 2023 (Viator),"Oxford, England",£50K - £95K (Glassdoor Est.),[]
+183,Backend Engineer (Go/Node.js) - Mental Health Startup (Remote UK only),"London, England",£50K - £60K (Employer Est.),['backend']
+184,Software Engineering Summer Intern (12 weeks),"London, England",£60K - £77K (Glassdoor Est.),[]
+185,"Senior Software Engineer, Backend (Reddit X, Chat-EMEA)","London, England",£77K - £85K (Glassdoor Est.),[]
+186,"Senior Backend-Engineer C# (f/m/d) - London, Amsterdam or remote",Remote,NA,[]
+187,Backend Software Engineer (Internship),"London, England",NA,[]
+188,Python Software Engineer (Internship),"London, England",NA,[]
+189,"Senior Backend Developer (Node.js, Javascript)","London, England",£60K - £75K (Employer Est.),[]
+190,Founding Backend Engineer (f/m/x),"London, England",£80K - £120K (Employer Est.),[]
+191,Backend Engineer - Python,"London, England",£57K - £73K (Glassdoor Est.),"['sql', 'docker', 'python']"
+192,"Backend Developer (Java, Middle)","London, England",£58K - £75K (Glassdoor Est.),['java']
+193,Software Engineer - Backend Services / Scala - Node.JS,"London, England",£63K - £75K (Glassdoor Est.),['backend']
+194,Back-End Software Engineer,"Exeter, England",£40K - £49K (Employer Est.),"['backend', 'aws', 'cloud']"
+195,Backend Engineer (Node.js) Spain,"Cambourne, England",£30K - £55K (Employer Est.),"['backend', 'cloud', 'node']"
+196,Software Engineer,,£25K (Employer Est.),[]
+197,Software Engineer,"London, England",£700 (Employer Est.),[]
+198,Junior Software Engineer (Backend),Remote,NA,['testing']
+199,Backend Engineer (Python),"London, England",£77K - £115K (Glassdoor Est.),['backend']
+200,Junior Backend Developer - Smart Pear,"London, England",£52K - £55K (Glassdoor Est.),[]
+201,Jr. Backend Engineer - Partners Tribe (UK),"London, England",£71K - £84K (Glassdoor Est.),['backend']
+202,ZSTID17 Tour Operator and Inventory Administrator Fully Remote WFH 30k per annum,Remote,£25K - £27K (Employer Est.),[]
+203,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+204,Mid or Senior Rust Backend Developer (Multiple openings - remote possible),"London, England",£58K - £75K (Glassdoor Est.),[]
+205,Software Engineer - Your Return to Tech - Java,Remote,£35K - £70K (Employer Est.),"['backend', 'java']"
+206,Software Engineering Internship 2023,"Cambridge, East of England, England",£12.50 Per Hour(Employer Est.),[]
+207,Junior Developer,"Gateshead, England",£26K (Employer Est.),[]
+208,Backend Engineer [Remote - UK],"London, England",£50K - £73K (Glassdoor Est.),"['frontend', 'backend']"
+209,Remote Backend Engineer (Europe),,NA,"['css', 'java', 'express', 'python']"
+210,"Junior Software Engineer (C#, SQL)",,NA,['sql']
+211,Backend Developer,"Edinburgh, Scotland",£40K - £70K (Employer Est.),['backend']
+212,Software Engineering Summer Intern (12 weeks),"London, England",£60K - £77K (Glassdoor Est.),[]
+213,Backend Engineer (Go/Node.js) - Mental Health Startup (Remote UK only),"London, England",£50K - £60K (Employer Est.),['backend']
+214,Software Engineering Intern - Summer 2023 (Viator),"Oxford, England",£50K - £95K (Glassdoor Est.),[]
+215,Backend Software Engineer (Internship),"London, England",NA,[]
+216,"Senior Backend-Engineer C# (f/m/d) - London, Amsterdam or remote",Remote,NA,[]
+217,"Senior Software Engineer, Backend (Reddit X, Chat-EMEA)","London, England",£77K - £85K (Glassdoor Est.),[]
+218,"Senior Backend Developer (Node.js, Javascript)","London, England",£60K - £75K (Employer Est.),[]
+219,Founding Backend Engineer (f/m/x),"London, England",£80K - £120K (Employer Est.),[]
+220,Backend Engineer (Node.js) Spain,"Cambourne, England",£30K - £55K (Employer Est.),"['backend', 'cloud', 'node']"
+221,Python Software Engineer (Internship),"London, England",NA,[]
+222,Back-End Software Engineer,"Exeter, England",£40K - £49K (Employer Est.),"['backend', 'aws', 'cloud']"
+223,Junior Software Engineer (Backend),Remote,NA,['testing']
+224,"Backend Developer (Java, Middle)","London, England",£58K - £75K (Glassdoor Est.),['java']
+225,ZSTID17 Tour Operator and Inventory Administrator Fully Remote WFH 30k per annum,Remote,£25K - £27K (Employer Est.),[]
+226,Junior Backend Developer - Smart Pear,"London, England",£52K - £55K (Glassdoor Est.),[]
+227,Software Engineer - Backend Services / Scala - Node.JS,"London, England",£63K - £75K (Glassdoor Est.),['backend']
+228,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+229,Software Engineer - Your Return to Tech - Java,Remote,£35K - £70K (Employer Est.),"['backend', 'java']"
+230,Jr. Backend Engineer - Partners Tribe (UK),"London, England",£71K - £84K (Glassdoor Est.),['backend']
+231,Software Engineer,,£25K (Employer Est.),[]
+232,Backend Engineer - Python,"London, England",£57K - £73K (Glassdoor Est.),"['sql', 'docker', 'python']"
+233,Junior Developer,"Gateshead, England",£26K (Employer Est.),[]
+234,Mid or Senior Rust Backend Developer (Multiple openings - remote possible),"London, England",£58K - £75K (Glassdoor Est.),[]
+235,Software Engineering Internship 2023,"Cambridge, East of England, England",£12.50 Per Hour(Employer Est.),[]
+236,Backend Software Developer,"Leicester, England",£48K - £76K (Glassdoor Est.),[]
+237,Senior Backend Engineer – Billon Dollar AI Tech,"London, England",£100K - £120K (Employer Est.),['backend']
+238,Backend Engineer [Remote - UK],"London, England",£50K - £73K (Glassdoor Est.),"['frontend', 'backend']"
+239,Backend Engineer (Python),"London, England",£77K - £115K (Glassdoor Est.),['backend']
+240,Backend Developer,"Edinburgh, Scotland",£40K - £70K (Employer Est.),['backend']
+241,"Junior Software Engineer (C#, SQL)",,NA,['backend']
+242,Backend Engineer (Go/Node.js) - Mental Health Startup (Remote UK only),"London, England",£50K - £60K (Employer Est.),['backend']
+243,Python Software Engineer (Internship),"London, England",NA,[]
+244,Software Engineering Summer Intern (12 weeks),"London, England",£60K - £77K (Glassdoor Est.),[]
+245,Software Engineering Intern - Summer 2023 (Viator),"Oxford, England",£50K - £95K (Glassdoor Est.),[]
+246,ZSTID17 Tour Operator and Inventory Administrator Fully Remote WFH 30k per annum,Remote,£25K - £27K (Employer Est.),[]
+247,Backend Software Engineer (Internship),"London, England",NA,[]
+248,"Senior Backend-Engineer C# (f/m/d) - London, Amsterdam or remote",Remote,NA,[]
+249,Founding Backend Engineer (f/m/x),"London, England",£80K - £120K (Employer Est.),[]
+250,Junior Software Engineer (Backend),Remote,NA,['testing']
+251,"Senior Backend Developer (Node.js, Javascript)","London, England",£60K - £75K (Employer Est.),[]
+252,"Backend Developer (Java, Middle)","London, England",£58K - £75K (Glassdoor Est.),['java']
+253,Software Engineer - Your Return to Tech - Java,Remote,£35K - £70K (Employer Est.),"['backend', 'java']"
+254,Backend Engineer - Python,"London, England",£57K - £73K (Glassdoor Est.),"['sql', 'docker', 'python']"
+255,Backend Engineer (Node.js) Spain,"Cambourne, England",£30K - £55K (Employer Est.),"['backend', 'cloud', 'node']"
+256,Backend Engineer (Python),"London, England",£77K - £115K (Glassdoor Est.),['backend']
+257,Software Engineer,"London, England",£700 (Employer Est.),[]
+258,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+259,"Senior Software Engineer, Backend (Reddit X, Chat-EMEA)","London, England",£77K - £85K (Glassdoor Est.),[]
+260,Software Engineer,,£25K (Employer Est.),[]
+261,Junior Backend Developer - Smart Pear,"London, England",£52K - £55K (Glassdoor Est.),[]
+262,Back-End Software Engineer,"Exeter, England",£40K - £49K (Employer Est.),"['backend', 'aws', 'cloud']"
+263,Jr. Backend Engineer - Partners Tribe (UK),"London, England",£71K - £84K (Glassdoor Est.),['backend']
+264,Backend Engineers (Python),Remote,NA,[]
+265,Backend Engineer [Remote - UK],"London, England",£50K - £73K (Glassdoor Est.),"['frontend', 'backend']"
+266,Software Engineer - Backend Services / Scala - Node.JS,"London, England",£63K - £75K (Glassdoor Est.),['backend']
+267,Junior Developer,"Gateshead, England",£26K (Employer Est.),[]
+268,Backend Developer,"Sunderland, North East England, England",£25K - £45K (Employer Est.),['backend']
+269,Remote Backend Engineer (Europe),,NA,"['css', 'java', 'express', 'python']"
+270,Backend Developer,"Edinburgh, Scotland",£40K - £70K (Employer Est.),['backend']
+271,Software Engineering Summer Intern (12 weeks),"London, England",£60K - £77K (Glassdoor Est.),[]
+272,"Junior Software Engineer (C#, SQL)",,NA,['sql']
+273,Software Engineering Intern - Summer 2023 (Viator),"Oxford, England",£50K - £95K (Glassdoor Est.),[]
+274,Python Software Engineer (Internship),"London, England",NA,[]
+275,Backend Engineer (Go/Node.js) - Mental Health Startup (Remote UK only),"London, England",£50K - £60K (Employer Est.),['backend']
+276,Backend Software Engineer (Internship),"London, England",NA,[]
+277,ZSTID17 Tour Operator and Inventory Administrator Fully Remote WFH 30k per annum,Remote,£25K - £27K (Employer Est.),[]
+278,"Senior Backend Developer (Node.js, Javascript)","London, England",£60K - £75K (Employer Est.),[]
+279,"Senior Backend-Engineer C# (f/m/d) - London, Amsterdam or remote",Remote,NA,[]
+280,Backend Engineer (Node.js) Spain,"Cambourne, England",£30K - £55K (Employer Est.),"['backend', 'cloud', 'node']"
+281,Junior Software Engineer (Backend),Remote,NA,['testing']
+282,Founding Backend Engineer (f/m/x),"London, England",£80K - £120K (Employer Est.),[]
+283,Backend Engineer - Python,"London, England",£57K - £73K (Glassdoor Est.),"['sql', 'docker', 'python']"
+284,Back-End Software Engineer,"Exeter, England",£40K - £49K (Employer Est.),"['backend', 'aws', 'cloud']"
+285,"Senior Software Engineer, Backend (Reddit X, Chat-EMEA)","London, England",£77K - £85K (Glassdoor Est.),[]
+286,Software Engineer - Your Return to Tech - Java,Remote,£35K - £70K (Employer Est.),"['backend', 'java']"
+287,Backend Engineer (Python),"London, England",£77K - £115K (Glassdoor Est.),['backend']
+288,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+289,Junior Backend Developer - Smart Pear,"London, England",£52K - £55K (Glassdoor Est.),[]
+290,Backend Engineers (Python),Remote,NA,[]
+291,"Backend Developer (Java, Middle)","London, England",£58K - £75K (Glassdoor Est.),['java']
+292,Jr. Backend Engineer - Partners Tribe (UK),"London, England",£71K - £84K (Glassdoor Est.),['backend']
+293,Software Engineer - Backend Services / Scala - Node.JS,"London, England",£63K - £75K (Glassdoor Est.),['backend']
+294,Software Engineer,,£25K (Employer Est.),[]
+295,Remote Backend Engineer (Europe),,NA,"['css', 'java', 'express', 'python']"
+296,Backend Developer,"Sunderland, North East England, England",£25K - £45K (Employer Est.),['backend']
+297,Senior backend engineer- fully remote,Remote,NA,[]
+298,Junior Developer,"Gateshead, England",£26K (Employer Est.),[]
+299,Software Engineer,"London, England",£700 (Employer Est.),[]
+300,Backend Developer,"Edinburgh, Scotland",£40K - £70K (Employer Est.),['backend']
+301,Software Engineering Summer Intern (12 weeks),"London, England",£60K - £77K (Glassdoor Est.),[]
+302,"Junior Software Engineer (C#, SQL)",,NA,['sql']
+303,Software Engineering Intern - Summer 2023 (Viator),"Oxford, England",£50K - £95K (Glassdoor Est.),[]
+304,Python Software Engineer (Internship),"London, England",NA,[]
+305,Backend Engineer (Go/Node.js) - Mental Health Startup (Remote UK only),"London, England",£50K - £60K (Employer Est.),['backend']
+306,"Senior Backend Developer (Node.js, Javascript)","London, England",£60K - £75K (Employer Est.),[]
+307,Junior Software Engineer (Backend),Remote,NA,['testing']
+308,Backend Software Engineer (Internship),"London, England",NA,[]
+309,"Senior Backend-Engineer C# (f/m/d) - London, Amsterdam or remote",Remote,NA,[]
+310,Software Engineer - Your Return to Tech - Java,Remote,£35K - £70K (Employer Est.),"['backend', 'java']"
+311,"Senior Software Engineer, Backend (Reddit X, Chat-EMEA)","London, England",£77K - £85K (Glassdoor Est.),[]
+312,Backend Engineer - Python,"London, England",£57K - £73K (Glassdoor Est.),"['sql', 'docker', 'python']"
+313,Founding Backend Engineer (f/m/x),"London, England",£80K - £120K (Employer Est.),[]
+314,ZSTID17 Tour Operator and Inventory Administrator Fully Remote WFH 30k per annum,Remote,£25K - £27K (Employer Est.),[]
+315,Junior Backend Developer - Smart Pear,"London, England",£52K - £55K (Glassdoor Est.),[]
+316,Backend Engineer (Python),"London, England",£77K - £115K (Glassdoor Est.),['backend']
+317,Backend Engineer (Node.js) Spain,"Cambourne, England",£30K - £55K (Employer Est.),"['backend', 'cloud', 'node']"
+318,Back-End Software Engineer,"Exeter, England",£40K - £49K (Employer Est.),"['backend', 'aws', 'cloud']"
+319,"Backend Developer (Java, Middle)","London, England",£58K - £75K (Glassdoor Est.),['java']
+320,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+321,Backend Engineers (Python),Remote,NA,[]
+322,Jr. Backend Engineer - Partners Tribe (UK),"London, England",£71K - £84K (Glassdoor Est.),['backend']
+323,Senior backend engineer- fully remote,Remote,NA,[]
+324,Software Engineer,,£25K (Employer Est.),[]
+325,Software Engineer - Backend Services / Scala - Node.JS,"London, England",£63K - £75K (Glassdoor Est.),['backend']
+326,Backend Engineer [Remote - UK],"London, England",£50K - £73K (Glassdoor Est.),"['frontend', 'backend']"
+327,Software Engineering Graduate Programme,"Hatfield, East of England, England",£40K - £55K (Glassdoor Est.),[]
+328,Remote Backend Engineer (Europe),,NA,"['css', 'java', 'express', 'python']"
+329,Software Engineering Internship 2023,"Cambridge, East of England, England",£12.50 Per Hour(Employer Est.),[]
+330,Backend Developer,"Edinburgh, Scotland",£40K - £70K (Employer Est.),['backend']
+331,Software Engineering Summer Intern (12 weeks),"London, England",£60K - £77K (Glassdoor Est.),[]
+332,"Junior Software Engineer (C#, SQL)",,NA,['sql']
+333,Junior Software Engineer (Backend),Remote,NA,['testing']
+334,Python Software Engineer (Internship),"London, England",NA,[]
+335,Backend Software Engineer (Internship),"London, England",NA,[]
+336,"Senior Backend-Engineer C# (f/m/d) - London, Amsterdam or remote",Remote,NA,[]
+337,Backend Engineer (Go/Node.js) - Mental Health Startup (Remote UK only),"London, England",£50K - £60K (Employer Est.),['backend']
+338,Software Engineering Intern - Summer 2023 (Viator),"Oxford, England",£50K - £95K (Glassdoor Est.),[]
+339,"Senior Backend Developer (Node.js, Javascript)","London, England",£60K - £75K (Employer Est.),[]
+340,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+341,Back-End Software Engineer,"Exeter, England",£40K - £49K (Employer Est.),"['backend', 'aws', 'cloud']"
+342,Founding Backend Engineer (f/m/x),"London, England",£80K - £120K (Employer Est.),[]
+343,"Senior Software Engineer, Backend (Reddit X, Chat-EMEA)","London, England",£77K - £85K (Glassdoor Est.),[]
+344,Software Engineer - Your Return to Tech - Java,Remote,£35K - £70K (Employer Est.),"['backend', 'java']"
+345,Backend Engineer (Python),"London, England",£77K - £115K (Glassdoor Est.),['backend']
+346,Backend Engineer - Python,"London, England",£57K - £73K (Glassdoor Est.),"['sql', 'docker', 'python']"
+347,Backend Engineer (Node.js) Spain,"Cambourne, England",£30K - £55K (Employer Est.),"['backend', 'cloud', 'node']"
+348,Backend Engineers (Python),Remote,NA,[]
+349,ZSTID17 Tour Operator and Inventory Administrator Fully Remote WFH 30k per annum,Remote,£25K - £27K (Employer Est.),[]
+350,Junior Backend Developer - Smart Pear,"London, England",£52K - £55K (Glassdoor Est.),[]
+351,"Backend Developer (Java, Middle)","London, England",£58K - £75K (Glassdoor Est.),['java']
+352,Software Engineer,,£25K (Employer Est.),[]
+353,Jr. Backend Engineer - Partners Tribe (UK),"London, England",£71K - £84K (Glassdoor Est.),['backend']
+354,Senior backend engineer- fully remote,Remote,NA,[]
+355,Software Engineer,"London, England",£700 (Employer Est.),[]
+356,Software Engineer - Backend Services / Scala - Node.JS,"London, England",£63K - £75K (Glassdoor Est.),['backend']
+357,Software Engineering Graduate Programme,"Hatfield, East of England, England",£40K - £55K (Glassdoor Est.),[]
+358,Remote Backend Engineer (Europe),,NA,"['css', 'java', 'express', 'python']"
+359,Junior Developer,"Gateshead, England",£26K (Employer Est.),[]
+360,"Junior Software Engineer (C#, SQL)",,NA,['sql']
+361,ZSTID17 Tour Operator and Inventory Administrator Fully Remote WFH 30k per annum,Remote,£25K - £27K (Employer Est.),[]
+362,Software Engineering Summer Intern (12 weeks),"London, England",£60K - £77K (Glassdoor Est.),[]
+363,Backend Developer,"Edinburgh, Scotland",£40K - £70K (Employer Est.),['backend']
+364,Python Software Engineer (Internship),"London, England",NA,[]
+365,Back-End Software Engineer,"Exeter, England",£40K - £49K (Employer Est.),"['backend', 'aws', 'cloud']"
+366,Software Engineering Intern - Summer 2023 (Viator),"Oxford, England",£50K - £95K (Glassdoor Est.),[]
+367,Software Engineer - Your Return to Tech - Java,Remote,£35K - £70K (Employer Est.),"['backend', 'java']"
+368,Backend Engineer (Python),"London, England",£77K - £115K (Glassdoor Est.),['backend']
+369,"Senior Backend-Engineer C# (f/m/d) - London, Amsterdam or remote",Remote,NA,[]
+370,Backend Engineer (Go/Node.js) - Mental Health Startup (Remote UK only),"London, England",£50K - £60K (Employer Est.),['backend']
+371,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+372,Junior Backend Developer - Smart Pear,"London, England",£52K - £55K (Glassdoor Est.),[]
+373,Backend Engineer - Python,"London, England",£57K - £73K (Glassdoor Est.),"['sql', 'docker', 'python']"
+374,Remote Backend Engineer (Europe),,NA,"['css', 'java', 'express', 'python']"
+375,Backend Software Engineer (Internship),"London, England",NA,[]
+376,"Senior Backend Developer (Node.js, Javascript)","London, England",£60K - £75K (Employer Est.),[]
+377,Founding Backend Engineer (f/m/x),"London, England",£80K - £120K (Employer Est.),[]
+378,Junior Software Engineer (Backend),Remote,NA,['testing']
+379,Backend Engineer (Node.js) Spain,"Cambourne, England",£30K - £55K (Employer Est.),"['backend', 'cloud', 'node']"
+380,Backend Engineers (Python),Remote,NA,[]
+381,Software Engineer - Backend Services / Scala - Node.JS,"London, England",£63K - £75K (Glassdoor Est.),['backend']
+382,"Senior Software Engineer, Backend (Reddit X, Chat-EMEA)","London, England",£77K - £85K (Glassdoor Est.),[]
+383,Software Engineering Internship 2023,"Cambridge, East of England, England",£12.50 Per Hour(Employer Est.),[]
+384,Junior Developer,"Gateshead, England",£26K (Employer Est.),[]
+385,Software Engineer,"London, England",£700 (Employer Est.),[]
+386,Software Engineer,,£25K (Employer Est.),[]
+387,"2023 Summer Intern - C++ Software Engineering Intern, London","London, England",£50K - £72K (Glassdoor Est.),[]
+388,Software Engineering Graduate Programme,"Hatfield, East of England, England",£40K - £55K (Glassdoor Est.),[]
+389,Jr. Backend Engineer - Partners Tribe (UK),"London, England",£71K - £84K (Glassdoor Est.),['backend']
+390,ZSTID17 Tour Operator and Inventory Administrator Fully Remote WFH 30k per annum,Remote,£25K - £27K (Employer Est.),[]
+391,"Junior Software Engineer (C#, SQL)",,NA,['sql']
+392,Python Software Engineer (Internship),"London, England",NA,[]
+393,Backend Developer,"Edinburgh, Scotland",£40K - £70K (Employer Est.),['backend']
+394,Software Engineering Summer Intern (12 weeks),"London, England",£60K - £77K (Glassdoor Est.),[]
+395,Software Engineer - Your Return to Tech - Java,Remote,£35K - £70K (Employer Est.),"['backend', 'java']"
+396,Back-End Software Engineer,"Exeter, England",£40K - £49K (Employer Est.),"['backend', 'aws', 'cloud']"
+397,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+398,Junior Software Engineer (Backend),Remote,NA,['testing']
+399,Junior Backend Developer - Smart Pear,"London, England",£52K - £55K (Glassdoor Est.),[]
+400,Backend Software Engineer (Internship),"London, England",NA,[]
+401,Backend Engineer (Python),"London, England",£77K - £115K (Glassdoor Est.),['backend']
+402,Backend Engineer (Go/Node.js) - Mental Health Startup (Remote UK only),"London, England",£50K - £60K (Employer Est.),['backend']
+403,Remote Backend Engineer (Europe),,NA,"['css', 'java', 'express', 'python']"
+404,Software Engineering Intern - Summer 2023 (Viator),"Oxford, England",£50K - £95K (Glassdoor Est.),[]
+405,Backend Engineer - Python,"London, England",£57K - £73K (Glassdoor Est.),"['sql', 'docker', 'python']"
+406,"Senior Backend-Engineer C# (f/m/d) - London, Amsterdam or remote",Remote,NA,[]
+407,Founding Backend Engineer (f/m/x),"London, England",£80K - £120K (Employer Est.),[]
+408,"Senior Backend Developer (Node.js, Javascript)","London, England",£60K - £75K (Employer Est.),[]
+409,Backend Engineer (Node.js) Spain,"Cambourne, England",£30K - £55K (Employer Est.),"['backend', 'cloud', 'node']"
+410,Software Engineering Internship 2023,"Cambridge, East of England, England",£12.50 Per Hour(Employer Est.),[]
+411,Software Engineer,"London, England",£700 (Employer Est.),[]
+412,Junior Developer,"Gateshead, England",£26K (Employer Est.),[]
+413,Backend Engineers (Python),Remote,NA,[]
+414,Software Engineer,,£25K (Employer Est.),[]
+415,"Backend Developer (Java, Middle)","London, England",£58K - £75K (Glassdoor Est.),['java']
+416,"Senior Software Engineer, Backend (Reddit X, Chat-EMEA)","London, England",£77K - £85K (Glassdoor Est.),[]
+417,Jr. Backend Engineer - Partners Tribe (UK),"London, England",£71K - £84K (Glassdoor Est.),['backend']
+418,Software Engineer - Backend Services / Scala - Node.JS,"London, England",£63K - £75K (Glassdoor Est.),['backend']
+419,Software Engineering Graduate Programme,"Hatfield, East of England, England",£40K - £55K (Glassdoor Est.),[]
+420,ZSTID17 Tour Operator and Inventory Administrator Fully Remote WFH 30k per annum,Remote,£25K - £27K (Employer Est.),[]
+421,Junior Backend Developer - Smart Pear,"London, England",£52K - £55K (Glassdoor Est.),[]
+422,"Junior Software Engineer (C#, SQL)",,NA,['sql']
+423,Software Engineer - Your Return to Tech - Java,Remote,£35K - £70K (Employer Est.),"['backend', 'java']"
+424,Python Software Engineer (Internship),"London, England",NA,[]
+425,Backend Developer,"Edinburgh, Scotland",£40K - £70K (Employer Est.),['backend']
+426,Software Engineering Summer Intern (12 weeks),"London, England",£60K - £77K (Glassdoor Est.),[]
+427,Software Engineering Intern - Summer 2023 (Viator),"Oxford, England",£50K - £95K (Glassdoor Est.),[]
+428,Back-End Software Engineer,"Exeter, England",£40K - £49K (Employer Est.),"['backend', 'aws', 'cloud']"
+429,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+430,Junior Software Engineer (Backend),Remote,NA,['testing']
+431,Backend Software Engineer (Internship),"London, England",NA,[]
+432,Backend Engineer (Python),"London, England",£77K - £115K (Glassdoor Est.),['backend']
+433,Backend Engineer (Node.js) Spain,"Cambourne, England",£30K - £55K (Employer Est.),"['backend', 'cloud', 'node']"
+434,Remote Backend Engineer (Europe),,NA,"['css', 'java', 'express', 'python']"
+435,Junior Developer,"Gateshead, England",£26K (Employer Est.),[]
+436,Founding Backend Engineer (f/m/x),"London, England",£80K - £120K (Employer Est.),[]
+437,Backend Engineer - Python,"London, England",£57K - £73K (Glassdoor Est.),"['sql', 'docker', 'python']"
+438,"Senior Backend-Engineer C# (f/m/d) - London, Amsterdam or remote",Remote,NA,[]
+439,"Senior Backend Developer (Node.js, Javascript)","London, England",£60K - £75K (Employer Est.),[]
+440,Backend Engineer (Go/Node.js) - Mental Health Startup (Remote UK only),"London, England",£50K - £60K (Employer Est.),['backend']
+441,Software Engineer,,£25K (Employer Est.),[]
+442,Software Engineering Internship 2023,"Cambridge, East of England, England",£12.50 Per Hour(Employer Est.),[]
+443,Backend Engineers (Python),Remote,NA,[]
+444,"Senior Software Engineer, Backend (Reddit X, Chat-EMEA)","London, England",£77K - £85K (Glassdoor Est.),[]
+445,Software Engineer - Backend Services / Scala - Node.JS,"London, England",£63K - £75K (Glassdoor Est.),['backend']
+446,Software Engineer,"London, England",£700 (Employer Est.),[]
+447,"Backend Developer (Java, Middle)","London, England",£58K - £75K (Glassdoor Est.),['java']
+448,Software Engineering Graduate Programme,"Hatfield, East of England, England",£40K - £55K (Glassdoor Est.),[]
+449,Jr. Backend Engineer - Partners Tribe (UK),"London, England",£71K - £84K (Glassdoor Est.),['backend']
+450,ZSTID17 Tour Operator and Inventory Administrator Fully Remote WFH 30k per annum,Remote,£25K - £27K (Employer Est.),[]
+451,Junior Backend Developer - Smart Pear,"London, England",£52K - £55K (Glassdoor Est.),[]
+452,"Junior Software Engineer (C#, SQL)",,NA,['sql']
+453,Software Engineer - Your Return to Tech - Java,Remote,£35K - £70K (Employer Est.),"['backend', 'java']"
+454,Python Software Engineer (Internship),"London, England",NA,[]
+455,Software Engineering Summer Intern (12 weeks),"London, England",£60K - £77K (Glassdoor Est.),[]
+456,Backend Developer,"Edinburgh, Scotland",£40K - £70K (Employer Est.),['backend']
+457,Back-End Software Engineer,"Exeter, England",£40K - £49K (Employer Est.),"['backend', 'aws', 'cloud']"
+458,Software Engineering Intern - Summer 2023 (Viator),"Oxford, England",£50K - £95K (Glassdoor Est.),[]
+459,Junior Software Engineer (Backend),Remote,NA,['testing']
+460,Software Engineering Graduate Programme,"Hatfield, East of England, England",£40K - £55K (Glassdoor Est.),[]
+461,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+462,Backend Engineer (Python),"London, England",£77K - £115K (Glassdoor Est.),['backend']
+463,Backend Software Engineer (Internship),"London, England",NA,[]
+464,Backend Engineer (Node.js) Spain,"Cambourne, England",£30K - £55K (Employer Est.),"['backend', 'cloud', 'node']"
+465,Remote Backend Engineer (Europe),,NA,"['css', 'java', 'express', 'python']"
+466,Backend Engineer - Python,"London, England",£57K - £73K (Glassdoor Est.),"['sql', 'docker', 'python']"
+467,Junior Developer,"Gateshead, England",£26K (Employer Est.),[]
+468,Founding Backend Engineer (f/m/x),"London, England",£80K - £120K (Employer Est.),[]
+469,"Senior Backend Developer (Node.js, Javascript)","London, England",£60K - £75K (Employer Est.),[]
+470,"Senior Backend-Engineer C# (f/m/d) - London, Amsterdam or remote",Remote,NA,[]
+471,Software Engineer,,£25K (Employer Est.),[]
+472,Backend Engineer (Go/Node.js) - Mental Health Startup (Remote UK only),"London, England",£50K - £60K (Employer Est.),['backend']
+473,Backend Engineers (Python),Remote,NA,[]
+474,Software Engineering Internship 2023,"Cambridge, East of England, England",£12.50 Per Hour(Employer Est.),[]
+475,"Senior Software Engineer, Backend (Reddit X, Chat-EMEA)","London, England",£77K - £85K (Glassdoor Est.),[]
+476,Software Engineer - Backend Services / Scala - Node.JS,"London, England",£63K - £75K (Glassdoor Est.),['backend']
+477,Software Engineer,"London, England",£700 (Employer Est.),[]
+478,"Backend Developer (Java, Middle)","London, England",£58K - £75K (Glassdoor Est.),['java']
+479,Jr. Backend Engineer - Partners Tribe (UK),"London, England",£71K - £84K (Glassdoor Est.),['backend']
+480,ZSTID17 Tour Operator and Inventory Administrator Fully Remote WFH 30k per annum,Remote,£25K - £27K (Employer Est.),[]
+481,Junior Backend Developer - Smart Pear,"London, England",£52K - £55K (Glassdoor Est.),[]
+482,Software Engineering Summer Intern (12 weeks),"London, England",£60K - £77K (Glassdoor Est.),[]
+483,Python Software Engineer (Internship),"London, England",NA,[]
+484,"Junior Software Engineer (C#, SQL)",,NA,['sql']
+485,Backend Developer,"Edinburgh, Scotland",£40K - £70K (Employer Est.),['backend']
+486,Software Engineer - Your Return to Tech - Java,Remote,£35K - £70K (Employer Est.),"['backend', 'java']"
+487,Software Engineering Intern - Summer 2023 (Viator),"Oxford, England",£50K - £95K (Glassdoor Est.),[]
+488,Back-End Software Engineer,"Exeter, England",£40K - £49K (Employer Est.),"['backend', 'aws', 'cloud']"
+489,Backend Engineer (Python),"London, England",£77K - £115K (Glassdoor Est.),['backend']
+490,Backend Engineer (Node.js) Spain,Remote,NA,"['backend', 'cloud', 'node']"
+491,Junior Software Engineer (Backend),Remote,NA,['testing']
+492,Software Engineering Graduate Programme,"Hatfield, East of England, England",£40K - £55K (Glassdoor Est.),[]
+493,Remote Backend Engineer (Europe),,NA,"['css', 'java', 'express', 'python']"
+494,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+495,Backend Software Engineer (Internship),"London, England",NA,[]
+496,"Senior Backend Developer (Node.js, Javascript)","London, England",£60K - £75K (Employer Est.),[]
+497,Backend Engineer (Go/Node.js) - Mental Health Startup (Remote UK only),"London, England",£50K - £60K (Employer Est.),['backend']
+498,Founding Backend Engineer (f/m/x),"London, England",£80K - £120K (Employer Est.),[]
+499,"Senior Backend-Engineer C# (f/m/d) - London, Amsterdam or remote",Remote,NA,[]
+500,Software Engineer - Backend Services / Scala - Node.JS,"London, England",£63K - £75K (Glassdoor Est.),['backend']
+501,Backend Engineer - Python,"London, England",£57K - £73K (Glassdoor Est.),"['sql', 'docker', 'python']"
+502,Backend Engineers (Python),Remote,NA,[]
+503,Junior Developer,"Gateshead, England",£26K (Employer Est.),[]
+504,"Senior Software Engineer, Backend (Reddit X, Chat-EMEA)","London, England",£77K - £85K (Glassdoor Est.),[]
+505,Software Engineer,,£25K (Employer Est.),[]
+506,Software Engineer,"London, England",£700 (Employer Est.),[]
+507,Jr. Backend Engineer - Partners Tribe (UK),"London, England",£71K - £84K (Glassdoor Est.),['backend']
+508,Software Engineering Intern,"London, England",NA,['cloud']
+509,"2023 Summer Intern - C++ Software Engineering Intern, London","London, England",£50K - £72K (Glassdoor Est.),[]
+510,Junior Backend Developer - Smart Pear,"London, England",£52K - £55K (Glassdoor Est.),[]
+511,ZSTID17 Tour Operator and Inventory Administrator Fully Remote WFH 30k per annum,Remote,£25K - £27K (Employer Est.),[]
+512,"Junior Software Engineer (C#, SQL)",,NA,['sql']
+513,Software Engineering Summer Intern (12 weeks),"London, England",£60K - £77K (Glassdoor Est.),[]
+514,Backend Developer,"Edinburgh, Scotland",£40K - £70K (Employer Est.),['backend']
+515,Python Software Engineer (Internship),"London, England",NA,[]
+516,Back-End Software Engineer,"Exeter, England",£40K - £49K (Employer Est.),"['backend', 'aws', 'cloud']"
+517,Backend Engineer (Go/Node.js) - Mental Health Startup (Remote UK only),"London, England",£50K - £60K (Employer Est.),['backend']
+518,Software Engineering Graduate Programme,"Hatfield, East of England, England",£40K - £55K (Glassdoor Est.),[]
+519,Founding Backend Engineer (f/m/x),"London, England",£80K - £120K (Employer Est.),[]
+520,"Senior Backend-Engineer C# (f/m/d) - London, Amsterdam or remote",Remote,NA,[]
+521,"Senior Backend Developer (Node.js, Javascript)","London, England",£60K - £75K (Employer Est.),[]
+522,Software Engineering Intern - Summer 2023 (Viator),"Oxford, England",£50K - £95K (Glassdoor Est.),[]
+523,Software Engineer - Your Return to Tech - Java,Remote,£35K - £70K (Employer Est.),"['backend', 'java']"
+524,Backend Engineer (Node.js) Spain,Remote,NA,"['backend', 'cloud', 'node']"
+525,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+526,Backend Engineer (Python),"London, England",£77K - £115K (Glassdoor Est.),['backend']
+527,Remote Backend Engineer (Europe),,NA,"['css', 'java', 'express', 'python']"
+528,Backend Engineer - Python,"London, England",£57K - £73K (Glassdoor Est.),"['sql', 'docker', 'python']"
+529,Junior Software Engineer (Backend),Remote,NA,['testing']
+530,Backend Software Engineer (Internship),"London, England",NA,[]
+531,"Senior Software Engineer, Backend (Reddit X, Chat-EMEA)","London, England",£77K - £85K (Glassdoor Est.),[]
+532,Software Engineer - Backend Services / Scala - Node.JS,"London, England",£63K - £75K (Glassdoor Est.),['backend']
+533,Software Engineer,,£25K (Employer Est.),[]
+534,Jr. Backend Engineer - Partners Tribe (UK),"London, England",£71K - £84K (Glassdoor Est.),['backend']
+535,Backend Engineers (Python),Remote,NA,[]
+536,Senior backend engineer- fully remote,Remote,NA,[]
+537,Junior Developer,"Gateshead, England",£26K (Employer Est.),[]
+538,Software Engineering Intern,"London, England",NA,['cloud']
+539,Software Engineering Internship 2023,"Cambridge, East of England, England",£12.50 Per Hour(Employer Est.),[]
+540,ZSTID17 Tour Operator and Inventory Administrator Fully Remote WFH 30k per annum,Remote,£25K - £27K (Employer Est.),[]
+541,Junior Backend Developer - Smart Pear,"London, England",£52K - £55K (Glassdoor Est.),[]
+542,"Junior Software Engineer (C#, SQL)",,NA,['sql']
+543,Software Engineering Summer Intern (12 weeks),"London, England",£60K - £77K (Glassdoor Est.),[]
+544,Python Software Engineer (Internship),"London, England",NA,[]
+545,Software Engineering Graduate Programme,"Hatfield, East of England, England",£40K - £55K (Glassdoor Est.),[]
+546,Backend Developer,"Edinburgh, Scotland",£40K - £70K (Employer Est.),['backend']
+547,Back-End Software Engineer,"Exeter, England",£40K - £49K (Employer Est.),"['backend', 'aws', 'cloud']"
+548,Software Engineer - Your Return to Tech - Java,Remote,£35K - £70K (Employer Est.),"['backend', 'java']"
+549,Software Engineering Intern - Summer 2023 (Viator),"Oxford, England",£50K - £95K (Glassdoor Est.),[]
+550,Remote Backend Engineer (Europe),,NA,"['css', 'java', 'express', 'python']"
+551,Backend Engineer (Python),"London, England",£77K - £115K (Glassdoor Est.),['backend']
+552,Junior Software Engineer (Backend),Remote,NA,['testing']
+553,Backend Engineer (Go/Node.js) - Mental Health Startup (Remote UK only),"London, England",£50K - £60K (Employer Est.),['backend']
+554,Backend Engineer - Python,"London, England",£57K - £73K (Glassdoor Est.),"['sql', 'docker', 'python']"
+555,Backend Engineer (Node.js) Spain,Remote,NA,"['backend', 'cloud', 'node']"
+556,Backend Software Engineer (Internship),"London, England",NA,[]
+557,"Senior Backend-Engineer C# (f/m/d) - London, Amsterdam or remote",Remote,NA,[]
+558,"Senior Backend Developer (Node.js, Javascript)","London, England",£60K - £75K (Employer Est.),[]
+559,Founding Backend Engineer (f/m/x),"London, England",£80K - £120K (Employer Est.),[]
+560,Backend Engineers (Python),Remote,NA,[]
+561,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+562,"Senior Software Engineer, Backend (Reddit X, Chat-EMEA)","London, England",£77K - £85K (Glassdoor Est.),[]
+563,Software Engineer - Backend Services / Scala - Node.JS,"London, England",£63K - £75K (Glassdoor Est.),['backend']
+564,Junior Developer,"Gateshead, England",£26K (Employer Est.),[]
+565,Senior backend engineer- fully remote,Remote,NA,[]
+566,Software Engineer,,£25K (Employer Est.),[]
+567,Jr. Backend Engineer - Partners Tribe (UK),"London, England",£71K - £84K (Glassdoor Est.),['backend']
+568,Software Engineering Intern,"London, England",NA,['cloud']
+569,Software Engineering Internship 2023,"Cambridge, East of England, England",£12.50 Per Hour(Employer Est.),[]
+570,Software Engineering Summer Intern (12 weeks),"London, England",£60K - £77K (Glassdoor Est.),[]
+571,Junior Backend Developer - Smart Pear,"London, England",£52K - £55K (Glassdoor Est.),[]
+572,"Junior Software Engineer (C#, SQL)",,NA,['sql']
+573,ZSTID17 Tour Operator and Inventory Administrator Fully Remote WFH 30k per annum,Remote,£25K - £27K (Employer Est.),[]
+574,Python Software Engineer (Internship),"London, England",NA,[]
+575,Backend Developer,"Edinburgh, Scotland",£40K - £70K (Employer Est.),['backend']
+576,Software Engineering Intern - Summer 2023 (Viator),"Oxford, England",£50K - £95K (Glassdoor Est.),[]
+577,Back-End Software Engineer,"Exeter, England",£40K - £49K (Employer Est.),"['backend', 'aws', 'cloud']"
+578,Remote Backend Engineer (Europe),,NA,"['css', 'java', 'express', 'python']"
+579,Backend Engineer (Node.js) Spain,Remote,NA,"['backend', 'cloud', 'node']"
+580,Software Engineer - Your Return to Tech - Java,Remote,£35K - £70K (Employer Est.),"['backend', 'java']"
+581,Junior Software Engineer (Backend),Remote,NA,['testing']
+582,Backend Engineer (Python),"London, England",£77K - £115K (Glassdoor Est.),['backend']
+583,Backend Engineer (Go/Node.js) - Mental Health Startup (Remote UK only),"London, England",£50K - £60K (Employer Est.),['backend']
+584,Software Engineering Graduate Programme,"Hatfield, East of England, England",£40K - £55K (Glassdoor Est.),[]
+585,Backend Engineer - Python,"London, England",£57K - £73K (Glassdoor Est.),"['sql', 'docker', 'python']"
+586,"Senior Backend-Engineer C# (f/m/d) - London, Amsterdam or remote",Remote,NA,[]
+587,"Senior Backend Developer (Node.js, Javascript)","London, England",£60K - £75K (Employer Est.),[]
+588,Founding Backend Engineer (f/m/x),"London, England",£80K - £120K (Employer Est.),[]
+589,Backend Software Engineer (Internship),"London, England",NA,[]
+590,"Senior Software Engineer, Backend (Reddit X, Chat-EMEA)","London, England",£77K - £85K (Glassdoor Est.),[]
+591,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+592,Software Engineer - Backend Services / Scala - Node.JS,"London, England",£63K - £75K (Glassdoor Est.),['backend']
+593,Software Engineer,,£25K (Employer Est.),[]
+594,Backend Engineers (Python),Remote,NA,[]
+595,"2023 Summer Intern - C++ Software Engineering Intern, London","London, England",£50K - £72K (Glassdoor Est.),[]
+596,Jr. Backend Engineer - Partners Tribe (UK),"London, England",£71K - £84K (Glassdoor Est.),['backend']
+597,Junior Developer,"Gateshead, England",£26K (Employer Est.),[]
+598,Senior backend engineer- fully remote,Remote,NA,[]
+599,Software Engineering Intern,"London, England",NA,['cloud']
+600,Junior Backend Developer - Smart Pear,"London, England",£52K - £55K (Glassdoor Est.),[]
+601,Software Engineering Summer Intern (12 weeks),"London, England",£60K - £77K (Glassdoor Est.),[]
+602,"Junior Software Engineer (C#, SQL)",,NA,['sql']
+603,ZSTID17 Tour Operator and Inventory Administrator Fully Remote WFH 30k per annum,Remote,£25K - £27K (Employer Est.),[]
+604,Backend Developer,"Edinburgh, Scotland",£40K - £70K (Employer Est.),['backend']
+605,Python Software Engineer (Internship),"London, England",NA,[]
+606,Software Engineering Intern - Summer 2023 (Viator),"Oxford, England",£50K - £95K (Glassdoor Est.),[]
+607,Back-End Software Engineer,"Exeter, England",£40K - £49K (Employer Est.),"['backend', 'aws', 'cloud']"
+608,Backend Engineer (Node.js) Spain,Remote,NA,"['backend', 'cloud', 'node']"
+609,Remote Backend Engineer (Europe),,NA,"['css', 'java', 'express', 'python']"
+610,Backend Engineer (Python),"London, England",£77K - £115K (Glassdoor Est.),['backend']
+611,Junior Software Engineer (Backend),Remote,NA,['testing']
+612,Software Engineer - Your Return to Tech - Java,Remote,£35K - £70K (Employer Est.),"['backend', 'java']"
+613,Software Engineering Graduate Programme,"Hatfield, East of England, England",£40K - £55K (Glassdoor Est.),[]
+614,Backend Software Engineer (Internship),"London, England",NA,[]
+615,Backend Engineer (Go/Node.js) - Mental Health Startup (Remote UK only),"London, England",£50K - £60K (Employer Est.),['backend']
+616,Backend Engineer - Python,"London, England",£57K - £73K (Glassdoor Est.),"['sql', 'docker', 'python']"
+617,"Senior Backend-Engineer C# (f/m/d) - London, Amsterdam or remote",Remote,NA,[]
+618,"Senior Backend Developer (Node.js, Javascript)","London, England",£60K - £75K (Employer Est.),[]
+619,Founding Backend Engineer (f/m/x),"London, England",£80K - £120K (Employer Est.),[]
+620,"Senior Software Engineer, Backend (Reddit X, Chat-EMEA)","London, England",£77K - £85K (Glassdoor Est.),[]
+621,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+622,Software Engineer - Backend Services / Scala - Node.JS,"London, England",£63K - £75K (Glassdoor Est.),['backend']
+623,Backend Engineers (Python),Remote,NA,[]
+624,Software Engineer,,£25K (Employer Est.),[]
+625,"2023 Summer Intern - C++ Software Engineering Intern, London","London, England",£50K - £72K (Glassdoor Est.),[]
+626,Jr. Backend Engineer - Partners Tribe (UK),"London, England",£71K - £84K (Glassdoor Est.),['backend']
+627,Senior backend engineer- fully remote,Remote,NA,[]
+628,Junior Developer,"Gateshead, England",£26K (Employer Est.),[]
+629,Software Engineering Intern,"London, England",NA,['cloud']
+630,Junior Backend Developer - Smart Pear,"London, England",£52K - £55K (Glassdoor Est.),[]
+631,ZSTID17 Tour Operator and Inventory Administrator Fully Remote WFH 30k per annum,Remote,£25K - £27K (Employer Est.),[]
+632,Software Engineering Summer Intern (12 weeks),"London, England",£60K - £77K (Glassdoor Est.),[]
+633,"Junior Software Engineer (C#, SQL)",,NA,['sql']
+634,Python Software Engineer (Internship),"London, England",NA,[]
+635,Backend Developer,"Edinburgh, Scotland",£40K - £70K (Employer Est.),['backend']
+636,Remote Backend Engineer (Europe),,NA,"['css', 'java', 'express', 'python']"
+637,Backend Engineer (Python),"London, England",£77K - £115K (Glassdoor Est.),['backend']
+638,Backend Engineer (Node.js) Spain,Remote,NA,"['backend', 'cloud', 'node']"
+639,Backend Engineer (Go/Node.js) - Mental Health Startup (Remote UK only),"London, England",£50K - £60K (Employer Est.),['backend']
+640,Backend Engineer - Python,"London, England",£57K - £73K (Glassdoor Est.),"['sql', 'docker', 'python']"
+641,"Senior Backend-Engineer C# (f/m/d) - London, Amsterdam or remote",Remote,NA,[]
+642,Software Engineering Intern - Summer 2023 (Viator),"Oxford, England",£50K - £95K (Glassdoor Est.),[]
+643,"Senior Software Engineer, Backend (Reddit X, Chat-EMEA)","London, England",£77K - £85K (Glassdoor Est.),[]
+644,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+645,Software Engineering Graduate Programme,"Hatfield, East of England, England",£40K - £55K (Glassdoor Est.),[]
+646,Junior Software Engineer (Backend),Remote,NA,['testing']
+647,"Senior Backend Developer (Node.js, Javascript)","London, England",£60K - £75K (Employer Est.),[]
+648,Software Engineer - Backend Services / Scala - Node.JS,"London, England",£63K - £75K (Glassdoor Est.),['backend']
+649,Software Engineer - Your Return to Tech - Java,Remote,£35K - £70K (Employer Est.),"['backend', 'java']"
+650,Founding Backend Engineer (f/m/x),"London, England",£80K - £120K (Employer Est.),[]
+651,Backend Software Engineer (Internship),"London, England",NA,[]
+652,Backend Engineers (Python),Remote,NA,[]
+653,Software Engineer,,£25K (Employer Est.),[]
+654,Jr. Backend Engineer - Partners Tribe (UK),"London, England",£71K - £84K (Glassdoor Est.),['backend']
+655,Junior Developer,"Gateshead, England",£26K (Employer Est.),[]
+656,Back-End Software Engineer,"Exeter, England",£40K - £49K (Employer Est.),"['backend', 'aws', 'cloud']"
+657,Software Engineering Intern,"London, England",NA,['cloud']
+658,Senior backend engineer- fully remote,Remote,NA,[]
+659,Backend Software Developer,"Leicester, England",£48K - £76K (Glassdoor Est.),[]
+660,Junior Backend Developer - Smart Pear,"London, England",£52K - £55K (Glassdoor Est.),[]
+661,"Junior Software Engineer (C#, SQL)",,NA,['sql']
+662,ZSTID17 Tour Operator and Inventory Administrator Fully Remote WFH 30k per annum,Remote,£25K - £27K (Employer Est.),[]
+663,Remote Backend Engineer (Europe),,NA,"['css', 'java', 'express', 'python']"
+664,Software Engineering Graduate Programme,"Hatfield, East of England, England",£40K - £55K (Glassdoor Est.),[]
+665,Backend Developer,"Edinburgh, Scotland",£40K - £70K (Employer Est.),['backend']
+666,Software Engineering Summer Intern (12 weeks),"London, England",£60K - £77K (Glassdoor Est.),[]
+667,Software Engineer - Your Return to Tech - Java,Remote,£35K - £70K (Employer Est.),"['backend', 'java']"
+668,Junior Software Engineer (Backend),Remote,NA,['testing']
+669,Python Software Engineer (Internship),"London, England",NA,[]
+670,Backend Engineer (Node.js) Spain,Remote,NA,"['backend', 'cloud', 'node']"
+671,"Senior Software Engineer, Backend (Reddit X, Chat-EMEA)","London, England",£77K - £85K (Glassdoor Est.),[]
+672,"Senior Backend-Engineer C# (f/m/d) - London, Amsterdam or remote",Remote,NA,[]
+673,Jr. Backend Engineer - Partners Tribe (UK),"London, England",£71K - £84K (Glassdoor Est.),['backend']
+674,"Senior Backend Developer (Node.js, Javascript)","London, England",£60K - £75K (Employer Est.),[]
+675,Software Engineer - Backend Services / Scala - Node.JS,"London, England",£63K - £75K (Glassdoor Est.),['backend']
+676,Backend Engineer (Python),"London, England",£77K - £115K (Glassdoor Est.),['backend']
+677,Backend Engineer - Python,"London, England",£57K - £73K (Glassdoor Est.),"['sql', 'docker', 'python']"
+678,Backend Software Engineer (Internship),"London, England",NA,[]
+679,Backend Engineer (Go/Node.js) - Mental Health Startup (Remote UK only),"London, England",£50K - £60K (Employer Est.),['backend']
+680,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+681,Back-End Software Engineer,"Exeter, England",£40K - £49K (Employer Est.),"['backend', 'aws', 'cloud']"
+682,Software Engineer,,£25K (Employer Est.),[]
+683,Founding Backend Engineer (f/m/x),"London, England",£80K - £120K (Employer Est.),[]
+684,Backend Engineer – Receive & Account tribe,"London, England",£80K - £115K (Employer Est.),[]
+685,Software Engineering Intern - Summer 2023 (Viator),"Oxford, England",£50K - £95K (Glassdoor Est.),[]
+686,Software Engineering Internship 2023,"Cambridge, East of England, England",£12.50 Per Hour(Employer Est.),[]
+687,Backend Engineers (Python),Remote,NA,[]
+688,Junior Developer,"Gateshead, England",£26K (Employer Est.),[]
+689,Senior backend engineer- fully remote,Remote,NA,[]
+690,"Junior Software Engineer (C#, SQL)",,NA,['sql']
+691,Junior Backend Developer - Smart Pear,"London, England",£52K - £55K (Glassdoor Est.),[]
+692,ZSTID17 Tour Operator and Inventory Administrator Fully Remote WFH 30k per annum,Remote,£25K - £27K (Employer Est.),[]
+693,Remote Backend Engineer (Europe),,NA,"['css', 'java', 'express', 'python']"
+694,Software Engineering Graduate Programme,"Hatfield, East of England, England",£40K - £55K (Glassdoor Est.),[]
+695,Backend Developer,"Edinburgh, Scotland",£40K - £70K (Employer Est.),['backend']
+696,Software Engineering Summer Intern (12 weeks),"London, England",£60K - £77K (Glassdoor Est.),[]
+697,Junior Software Engineer (Backend),Remote,NA,['testing']
+698,Software Engineer - Your Return to Tech - Java,Remote,£35K - £70K (Employer Est.),"['backend', 'java']"
+699,Backend Engineer (Node.js) Spain,Remote,NA,"['backend', 'cloud', 'node']"
+700,Python Software Engineer (Internship),"London, England",NA,[]
+701,"Senior Backend-Engineer C# (f/m/d) - London, Amsterdam or remote",Remote,NA,[]
+702,"Senior Software Engineer, Backend (Reddit X, Chat-EMEA)","London, England",£77K - £85K (Glassdoor Est.),[]
+703,"Senior Backend Developer (Node.js, Javascript)","London, England",£60K - £75K (Employer Est.),[]
+704,Software Engineer - Backend Services / Scala - Node.JS,"London, England",£63K - £75K (Glassdoor Est.),['backend']
+705,Jr. Backend Engineer - Partners Tribe (UK),"London, England",£71K - £84K (Glassdoor Est.),['backend']
+706,Backend Engineer - Python,"London, England",£57K - £73K (Glassdoor Est.),"['sql', 'docker', 'python']"
+707,Backend Software Engineer (Internship),"London, England",NA,[]
+708,Backend Engineer (Python),"London, England",£77K - £115K (Glassdoor Est.),['backend']
+709,Backend Engineer (Go/Node.js) - Mental Health Startup (Remote UK only),"London, England",£50K - £60K (Employer Est.),['backend']
+710,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+711,Founding Backend Engineer (f/m/x),"London, England",£80K - £120K (Employer Est.),[]
+712,Back-End Software Engineer,"Exeter, England",£40K - £49K (Employer Est.),"['backend', 'aws', 'cloud']"
+713,Backend Engineer – Receive & Account tribe,"London, England",£80K - £115K (Employer Est.),[]
+714,Software Engineer,,£25K (Employer Est.),[]
+715,Software Engineering Intern - Summer 2023 (Viator),"Oxford, England",£50K - £95K (Glassdoor Est.),[]
+716,Backend Engineers (Python),Remote,NA,[]
+717,Junior Developer,"Gateshead, England",£26K (Employer Est.),[]
+718,Senior backend engineer- fully remote,Remote,NA,[]
+719,Software Engineering Internship 2023,"Cambridge, East of England, England",£12.50 Per Hour(Employer Est.),[]
+720,Junior Backend Developer - Smart Pear,"London, England",£52K - £55K (Glassdoor Est.),[]
+721,"Junior Software Engineer (C#, SQL)",,NA,['sql']
+722,Remote Backend Engineer (Europe),,NA,"['css', 'java', 'express', 'python']"
+723,ZSTID17 Tour Operator and Inventory Administrator Fully Remote WFH 30k per annum,Remote,£25K - £27K (Employer Est.),[]
+724,Backend Developer,"Edinburgh, Scotland",£40K - £70K (Employer Est.),['backend']
+725,Software Engineering Graduate Programme,"Hatfield, East of England, England",£40K - £55K (Glassdoor Est.),[]
+726,Software Engineering Summer Intern (12 weeks),"London, England",£60K - £77K (Glassdoor Est.),[]
+727,Junior Software Engineer (Backend),Remote,NA,['testing']
+728,Software Engineer - Your Return to Tech - Java,Remote,£35K - £70K (Employer Est.),"['backend', 'java']"
+729,Backend Engineer (Node.js) Spain,Remote,NA,"['backend', 'cloud', 'node']"
+730,Jr. Backend Engineer - Partners Tribe (UK),"London, England",£71K - £84K (Glassdoor Est.),['backend']
+731,"Senior Backend-Engineer C# (f/m/d) - London, Amsterdam or remote",Remote,NA,[]
+732,Python Software Engineer (Internship),"London, England",NA,[]
+733,Backend Engineer - Python,"London, England",£57K - £73K (Glassdoor Est.),"['sql', 'docker', 'python']"
+734,"Senior Software Engineer, Backend (Reddit X, Chat-EMEA)","London, England",£77K - £85K (Glassdoor Est.),[]
+735,"Senior Backend Developer (Node.js, Javascript)","London, England",£60K - £75K (Employer Est.),[]
+736,Backend Engineer (Python),"London, England",£77K - £115K (Glassdoor Est.),['backend']
+737,Backend Software Engineer (Internship),"London, England",NA,[]
+738,Software Engineer - Backend Services / Scala - Node.JS,"London, England",£63K - £75K (Glassdoor Est.),['backend']
+739,Back-End Software Engineer,"Exeter, England",£40K - £49K (Employer Est.),"['backend', 'aws', 'cloud']"
+740,Backend Engineer (Go/Node.js) - Mental Health Startup (Remote UK only),"London, England",£50K - £60K (Employer Est.),['backend']
+741,Software Engineer,,£25K (Employer Est.),[]
+742,Founding Backend Engineer (f/m/x),"London, England",£80K - £120K (Employer Est.),[]
+743,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+744,Software Engineering Internship 2023,"Cambridge, East of England, England",£12.50 Per Hour(Employer Est.),[]
+745,Backend Engineer – Receive & Account tribe,"London, England",£80K - £115K (Employer Est.),[]
+746,Junior Developer,"Gateshead, England",£26K (Employer Est.),[]
+747,Software Engineering Intern - Summer 2023 (Viator),"Oxford, England",£50K - £95K (Glassdoor Est.),[]
+748,Backend Engineers (Python),Remote,NA,[]
+749,Backend Developer,"London, England",£70K (Employer Est.),['backend']
+750,"Junior Software Engineer (C#, SQL)",,NA,['sql']
+751,Junior Backend Developer - Smart Pear,"London, England",£52K - £55K (Glassdoor Est.),[]
+752,Software Engineering Graduate Programme,"Hatfield, East of England, England",£40K - £55K (Glassdoor Est.),[]
+753,Remote Backend Engineer (Europe),,NA,"['css', 'java', 'express', 'python']"
+754,ZSTID17 Tour Operator and Inventory Administrator Fully Remote WFH 30k per annum,Remote,£25K - £27K (Employer Est.),[]
+755,Backend Engineer (Go/Node.js) - Mental Health Startup (Remote UK only),"London, England",£50K - £60K (Employer Est.),['backend']
+756,Backend Developer,"Edinburgh, Scotland",£40K - £70K (Employer Est.),['backend']
+757,Software Engineer - Your Return to Tech - Java,Remote,£35K - £70K (Employer Est.),"['backend', 'java']"
+758,Software Engineering Summer Intern (12 weeks),"London, England",£60K - £77K (Glassdoor Est.),[]
+759,Junior Software Engineer (Backend),Remote,NA,['testing']
+760,Python Software Engineer (Internship),"London, England",NA,[]
+761,Back-End Software Engineer,"Exeter, England",£40K - £49K (Employer Est.),"['backend', 'aws', 'cloud']"
+762,"Senior Backend-Engineer C# (f/m/d) - London, Amsterdam or remote",Remote,NA,[]
+763,Backend Engineer (Python),"London, England",£77K - £115K (Glassdoor Est.),['backend']
+764,Backend Engineer (Node.js) Spain,Remote,NA,"['backend', 'cloud', 'node']"
+765,Jr. Backend Engineer - Partners Tribe (UK),"London, England",£71K - £84K (Glassdoor Est.),['backend']
+766,"Senior Backend Developer (Node.js, Javascript)","London, England",£60K - £75K (Employer Est.),[]
+767,Backend Engineer - Python,"London, England",£57K - £73K (Glassdoor Est.),"['sql', 'docker', 'python']"
+768,"Senior Software Engineer, Backend (Reddit X, Chat-EMEA)","London, England",£77K - £85K (Glassdoor Est.),[]
+769,Software Engineer - Backend Services / Scala - Node.JS,"London, England",£63K - £75K (Glassdoor Est.),['backend']
+770,Backend Software Engineer (Internship),"London, England",NA,[]
+771,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+772,Junior Developer,"Gateshead, England",£26K (Employer Est.),[]
+773,Founding Backend Engineer (f/m/x),"London, England",£80K - £120K (Employer Est.),[]
+774,Software Engineer,,£25K (Employer Est.),[]
+775,Software Engineering Internship 2023,"Cambridge, East of England, England",£12.50 Per Hour(Employer Est.),[]
+776,Backend Engineer – Receive & Account tribe,"London, England",£80K - £115K (Employer Est.),[]
+777,Software Engineering Intern - Summer 2023 (Viator),"Oxford, England",£50K - £95K (Glassdoor Est.),[]
+778,Backend Developer,"London, England",£70K (Employer Est.),['backend']
+779,Senior backend engineer- fully remote,Remote,NA,[]
+780,"Junior Software Engineer (C#, SQL)",,NA,['sql']
+781,ZSTID17 Tour Operator and Inventory Administrator Fully Remote WFH 30k per annum,Remote,£25K - £27K (Employer Est.),[]
+782,Junior Backend Developer - Smart Pear,"London, England",£52K - £55K (Glassdoor Est.),[]
+783,Software Engineering Graduate Programme,"Hatfield, East of England, England",£40K - £55K (Glassdoor Est.),[]
+784,Remote Backend Engineer (Europe),,NA,"['css', 'java', 'express', 'python']"
+785,Backend Engineer (Go/Node.js) - Mental Health Startup (Remote UK only),"London, England",£50K - £60K (Employer Est.),['backend']
+786,Software Engineering Summer Intern (12 weeks),"London, England",£60K - £77K (Glassdoor Est.),[]
+787,Backend Developer,"Edinburgh, Scotland",£40K - £70K (Employer Est.),['backend']
+788,Software Engineer - Your Return to Tech - Java,Remote,£35K - £70K (Employer Est.),"['backend', 'java']"
+789,Junior Software Engineer (Backend),Remote,NA,['testing']
+790,Python Software Engineer (Internship),"London, England",NA,[]
+791,Back-End Software Engineer,"Exeter, England",£40K - £49K (Employer Est.),"['backend', 'aws', 'cloud']"
+792,"Senior Backend-Engineer C# (f/m/d) - London, Amsterdam or remote",Remote,NA,[]
+793,Backend Engineer (Node.js) Spain,Remote,NA,"['backend', 'cloud', 'node']"
+794,Backend Engineer (Python),"London, England",£77K - £115K (Glassdoor Est.),['backend']
+795,Jr. Backend Engineer - Partners Tribe (UK),"London, England",£71K - £84K (Glassdoor Est.),['backend']
+796,Backend Engineer - Python,"London, England",£57K - £73K (Glassdoor Est.),"['sql', 'docker', 'python']"
+797,Software Engineer - Backend Services / Scala - Node.JS,"London, England",£63K - £75K (Glassdoor Est.),['backend']
+798,"Senior Backend Developer (Node.js, Javascript)","London, England",£60K - £75K (Employer Est.),[]
+799,Backend Software Engineer (Internship),"London, England",NA,[]
+800,"Senior Software Engineer, Backend (Reddit X, Chat-EMEA)","London, England",£77K - £85K (Glassdoor Est.),[]
+801,Software Engineer,,£25K (Employer Est.),[]
+802,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+803,Founding Backend Engineer (f/m/x),"London, England",£80K - £120K (Employer Est.),[]
+804,Junior Developer,"Gateshead, England",£26K (Employer Est.),[]
+805,Software Engineering Intern - Summer 2023 (Viator),"Oxford, England",£50K - £95K (Glassdoor Est.),[]
+806,Software Engineering Internship 2023,"Cambridge, East of England, England",£12.50 Per Hour(Employer Est.),[]
+807,Backend Engineer – Receive & Account tribe,"London, England",£80K - £115K (Employer Est.),[]
+808,Backend Developer,"London, England",£70K (Employer Est.),['backend']
+809,Senior backend engineer- fully remote,Remote,NA,[]
+810,ZSTID17 Tour Operator and Inventory Administrator Fully Remote WFH 30k per annum,Remote,£25K - £27K (Employer Est.),[]
+811,"Junior Software Engineer (C#, SQL)",,NA,['sql']
+812,Junior Backend Developer - Smart Pear,"London, England",£52K - £55K (Glassdoor Est.),[]
+813,Remote Backend Engineer (Europe),,NA,"['css', 'java', 'express', 'python']"
+814,Software Engineering Graduate Programme,"Hatfield, East of England, England",£40K - £55K (Glassdoor Est.),[]
+815,Backend Engineer (Go/Node.js) - Mental Health Startup (Remote UK only),"London, England",£50K - £60K (Employer Est.),['backend']
+816,Software Engineering Summer Intern (12 weeks),"London, England",£60K - £77K (Glassdoor Est.),[]
+817,Software Engineer - Your Return to Tech - Java,Remote,£35K - £70K (Employer Est.),"['backend', 'java']"
+818,"Senior Backend-Engineer C# (f/m/d) - London, Amsterdam or remote",Remote,NA,[]
+819,Backend Developer,"Edinburgh, Scotland",£40K - £70K (Employer Est.),['backend']
+820,Backend Engineer (Node.js) Spain,Remote,NA,"['backend', 'cloud', 'node']"
+821,Python Software Engineer (Internship),"London, England",NA,[]
+822,Junior Software Engineer (Backend),Remote,NA,['testing']
+823,Jr. Backend Engineer - Partners Tribe (UK),"London, England",£71K - £84K (Glassdoor Est.),['backend']
+824,Software Engineer - Backend Services / Scala - Node.JS,"London, England",£63K - £75K (Glassdoor Est.),['backend']
+825,Backend Engineer (Python),"London, England",£77K - £115K (Glassdoor Est.),['backend']
+826,Back-End Software Engineer,"Exeter, England",£40K - £49K (Employer Est.),"['backend', 'aws', 'cloud']"
+827,"Senior Backend Developer (Node.js, Javascript)","London, England",£60K - £75K (Employer Est.),[]
+828,"Senior Software Engineer, Backend (Reddit X, Chat-EMEA)","London, England",£77K - £85K (Glassdoor Est.),[]
+829,Founding Backend Engineer (f/m/x),"London, England",£80K - £120K (Employer Est.),[]
+830,Backend Engineer - Python,"London, England",£57K - £73K (Glassdoor Est.),"['sql', 'docker', 'python']"
+831,Backend Engineer – Receive & Account tribe,"London, England",£80K - £115K (Employer Est.),[]
+832,Backend Software Engineer (Internship),"London, England",NA,[]
+833,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+834,Software Engineer,,£25K (Employer Est.),[]
+835,Software Engineering Internship 2023,"Cambridge, East of England, England",£12.50 Per Hour(Employer Est.),[]
+836,Junior Developer,"Gateshead, England",£26K (Employer Est.),[]
+837,Software Engineering Intern - Summer 2023 (Viator),"Oxford, England",£50K - £95K (Glassdoor Est.),[]
+838,Senior backend engineer- fully remote,Remote,NA,[]
+839,Backend Developer,"London, England",£70K (Employer Est.),['backend']
+840,"Junior Software Engineer (C#, SQL)",,NA,['sql']
+841,Junior Backend Developer - Smart Pear,"London, England",£52K - £55K (Glassdoor Est.),[]
+842,ZSTID17 Tour Operator and Inventory Administrator Fully Remote WFH 30k per annum,Remote,£25K - £27K (Employer Est.),[]
+843,Software Engineering Graduate Programme,"Hatfield, East of England, England",£40K - £55K (Glassdoor Est.),[]
+844,Remote Backend Engineer (Europe),,NA,"['css', 'java', 'express', 'python']"
+845,Software Engineering Summer Intern (12 weeks),"London, England",£60K - £77K (Glassdoor Est.),[]
+846,Backend Engineer (Go/Node.js) - Mental Health Startup (Remote UK only),"London, England",£50K - £60K (Employer Est.),['backend']
+847,Software Engineer - Your Return to Tech - Java,Remote,£35K - £70K (Employer Est.),"['backend', 'java']"
+848,Backend Developer,"Edinburgh, Scotland",£40K - £70K (Employer Est.),['backend']
+849,"Senior Backend-Engineer C# (f/m/d) - London, Amsterdam or remote",Remote,NA,[]
+850,Backend Engineer (Node.js) Spain,Remote,NA,"['backend', 'cloud', 'node']"
+851,Python Software Engineer (Internship),"London, England",NA,[]
+852,Jr. Backend Engineer - Partners Tribe (UK),"London, England",£71K - £84K (Glassdoor Est.),['backend']
+853,Junior Software Engineer (Backend),Remote,NA,['testing']
+854,Software Engineer - Backend Services / Scala - Node.JS,"London, England",£63K - £75K (Glassdoor Est.),['backend']
+855,Back-End Software Engineer,"Exeter, England",£40K - £49K (Employer Est.),"['backend', 'aws', 'cloud']"
+856,Backend Engineer (Python),"London, England",£77K - £115K (Glassdoor Est.),['backend']
+857,"Senior Backend Developer (Node.js, Javascript)","London, England",£60K - £75K (Employer Est.),[]
+858,"Senior Software Engineer, Backend (Reddit X, Chat-EMEA)","London, England",£77K - £85K (Glassdoor Est.),[]
+859,Backend Software Engineer (Internship),"London, England",NA,[]
+860,Backend Engineer - Python,"London, England",£57K - £73K (Glassdoor Est.),"['sql', 'docker', 'python']"
+861,Founding Backend Engineer (f/m/x),"London, England",£80K - £120K (Employer Est.),[]
+862,Backend Engineer – Receive & Account tribe,"London, England",£80K - £115K (Employer Est.),[]
+863,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+864,Software Engineer,,£25K (Employer Est.),[]
+865,Junior Developer,"Gateshead, England",£26K (Employer Est.),[]
+866,Software Engineering Intern - Summer 2023 (Viator),"Oxford, England",£50K - £95K (Glassdoor Est.),[]
+867,Software Engineering Internship 2023,"Cambridge, East of England, England",£12.50 Per Hour(Employer Est.),[]
+868,Senior backend engineer- fully remote,Remote,NA,[]
+869,Backend Developer,"London, England",£70K (Employer Est.),['backend']
+870,"Junior Software Engineer (C#, SQL)",,NA,['sql']
+871,Junior Backend Developer - Smart Pear,"London, England",£52K - £55K (Glassdoor Est.),[]
+872,ZSTID17 Tour Operator and Inventory Administrator Fully Remote WFH 30k per annum,Remote,£25K - £27K (Employer Est.),[]
+873,Remote Backend Engineer (Europe),,NA,"['css', 'java', 'express', 'python']"
+874,Software Engineering Graduate Programme,"Hatfield, East of England, England",£40K - £55K (Glassdoor Est.),[]
+875,Software Engineer - Your Return to Tech - Java,Remote,£35K - £70K (Employer Est.),"['backend', 'java']"
+876,Backend Engineer (Go/Node.js) - Mental Health Startup (Remote UK only),"London, England",£50K - £60K (Employer Est.),['backend']
+877,Software Engineering Summer Intern (12 weeks),"London, England",£60K - £77K (Glassdoor Est.),[]
+878,"Senior Backend-Engineer C# (f/m/d) - London, Amsterdam or remote",Remote,NA,[]
+879,Backend Developer,"Edinburgh, Scotland",£40K - £70K (Employer Est.),['backend']
+880,Backend Engineer (Node.js) Spain,Remote,NA,"['backend', 'cloud', 'node']"
+881,Junior Software Engineer (Backend),Remote,NA,['testing']
+882,Python Software Engineer (Internship),"London, England",NA,[]
+883,Jr. Backend Engineer - Partners Tribe (UK),"London, England",£71K - £84K (Glassdoor Est.),['backend']
+884,Software Engineer - Backend Services / Scala - Node.JS,"London, England",£63K - £75K (Glassdoor Est.),['backend']
+885,Backend Engineer (Python),"London, England",£77K - £115K (Glassdoor Est.),['backend']
+886,Back-End Software Engineer,"Exeter, England",£40K - £49K (Employer Est.),"['backend', 'aws', 'cloud']"
+887,"Senior Software Engineer, Backend (Reddit X, Chat-EMEA)","London, England",£77K - £85K (Glassdoor Est.),[]
+888,"Senior Backend Developer (Node.js, Javascript)","London, England",£60K - £75K (Employer Est.),[]
+889,Founding Backend Engineer (f/m/x),"London, England",£80K - £120K (Employer Est.),[]
+890,Backend Engineer - Python,"London, England",£57K - £73K (Glassdoor Est.),"['sql', 'docker', 'python']"
+891,Backend Engineer – Receive & Account tribe,"London, England",£80K - £115K (Employer Est.),[]
+892,Backend Software Engineer (Internship),"London, England",NA,[]
+893,Backend Developer (Games & Esports) - C# / C++ / JS / TS / Golang / Python,"Elgin, Scotland",£30K (Employer Est.),"['backend', 'javascript', 'typescript', 'java']"
+894,Junior Developer,"Gateshead, England",£26K (Employer Est.),[]
+895,Software Engineer,,£25K (Employer Est.),[]
+896,Software Engineering Internship 2023,"Cambridge, East of England, England",£12.50 Per Hour(Employer Est.),[]
+897,Software Engineering Intern - Summer 2023 (Viator),"Oxford, England",£50K - £95K (Glassdoor Est.),[]
+898,Backend Developer,"London, England",£70K (Employer Est.),['backend']
+899,Senior backend engineer- fully remote,Remote,NA,[]
