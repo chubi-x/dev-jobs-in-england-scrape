@@ -13,6 +13,9 @@ from selenium.common.exceptions import (
 )
 from selenium.webdriver.common.keys import Keys
 
+from site_data import glassdoor_data
+from site_data import indeed_data
+
 job_keywords = [
     "frontend",
     "backend",
@@ -48,33 +51,6 @@ chrome_options = Options()
 chrome_options.add_experimental_option("detach", True)
 browser = webdriver.Chrome(options=chrome_options)
 jobs_list: List = []
-
-glassdoor_data = dict(
-    url="https://www.glassdoor.co.uk/Job/backend-jobs-SRCH_KO0,7.htm",
-    job_list="react-job-listing",
-    job_title=dict(by=By.CSS_SELECTOR, selector='[data-test="job-link"]'),
-    job_description=dict(by=By.CLASS_NAME, selector="jobDescriptionContent"),
-    job_salary=dict(by=By.CSS_SELECTOR, selector='span[data-test="detailSalary"]'),
-    job_location=dict(by=By.CSS_SELECTOR, selector='[data-test="emp-location"]'),
-    next_button=dict(by=By.CSS_SELECTOR, selector='[data-test="pagination-next"]'),
-    prev_button=dict(by=By.CSS_SELECTOR, selector='[data-test="pagination-prev"]'),
-)
-
-indeed_data = dict(
-    url="https://uk.indeed.com/jobs?q=fullstack+developer&l=United+Kingdom&vjk=7e22b832a0f774f8",
-    cancel_modal=dict(by=By.ID, selector="onetrust-reject-all-handler"),
-    job_list="slider_item",
-    job_title=dict(by=By.CLASS_NAME, selector="jobTitle"),
-    job_description=dict(by=By.ID, selector="jobDescriptionText"),
-    job_salary=dict(by=By.CLASS_NAME, selector="salary-snippet-container"),
-    job_location=dict(by=By.CLASS_NAME, selector="companyLocation"),
-    next_button=dict(
-        by=By.CSS_SELECTOR, selector='[data-testid="pagination-page-next"]'
-    ),
-    prev_button=dict(
-        by=By.CSS_SELECTOR, selector='[data-testid="pagination-page-prev"]'
-    ),
-)
 
 
 def cancel_modal(site_details):
