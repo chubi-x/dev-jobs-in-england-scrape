@@ -70,7 +70,7 @@ def cancel_modal(site_details):
         pass
 
 
-def click_stale_element(element: WebElement):
+def click_stale_element(element):
     checker = True
     while checker:
         try:
