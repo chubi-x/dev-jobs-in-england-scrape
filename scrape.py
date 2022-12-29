@@ -60,12 +60,34 @@ glassdoor_data = dict(
     prev_button=dict(by=By.CSS_SELECTOR, selector='[data-test="pagination-prev"]'),
 )
 
+indeed_data = dict(
+    url="https://uk.indeed.com/jobs?q=fullstack+developer&l=United+Kingdom&vjk=7e22b832a0f774f8",
+    cancel_modal=dict(by=By.ID, selector="onetrust-reject-all-handler"),
+    job_list="slider_item",
+    job_title=dict(by=By.CLASS_NAME, selector="jobTitle"),
+    job_description=dict(by=By.ID, selector="jobDescriptionText"),
+    job_salary=dict(by=By.CLASS_NAME, selector="salary-snippet-container"),
+    job_location=dict(by=By.CLASS_NAME, selector="companyLocation"),
+    next_button=dict(
+        by=By.CSS_SELECTOR, selector='[data-testid="pagination-page-next"]'
+    ),
+    prev_button=dict(
+        by=By.CSS_SELECTOR, selector='[data-testid="pagination-page-prev"]'
+    ),
+)
 
-def cancel_modal():
-    browser.find_elements(By.CLASS_NAME, "react-job-listing")[0].click()
+
+def cancel_modal(site_details):
+    first_item = browser.find_elements(By.CLASS_NAME, site_details["job_list"])[0]
+    browser.execute_script("arguments[0].click()", first_item)
     try:
         modal_cancel = WebDriverWait(browser, 5).until(
-            EC.element_to_be_clickable((By.CSS_SELECTOR, '[alt="Close"]'))
+            EC.element_to_be_clickable(
+                (
+                    site_details["cancel_modal"]["by"],
+                    site_details["cancel_modal"]["selector"],
+                )
+            )
         )
         modal_cancel.click()
     except:
@@ -163,7 +185,7 @@ def scrape_pages(site_details):
         )
     ]
     browser.get(url)
-    cancel_modal()
+    cancel_modal(site_details)
 
     prev_button: WebElement = WebDriverWait(browser, timeout).until(
         EC.presence_of_element_located(
