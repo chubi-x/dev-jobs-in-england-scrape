@@ -1,5 +1,5 @@
 from re import search
-from typing import List
+from typing import Dict, List
 import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.remote.webelement import WebElement
@@ -46,10 +46,19 @@ job_keywords = [
 timeout = 10
 chrome_options = Options()
 chrome_options.add_experimental_option("detach", True)
-url = "https://www.glassdoor.co.uk/Job/backend-jobs-SRCH_KO0,7.htm"
 browser = webdriver.Chrome(options=chrome_options)
-browser.get(url)
-job_details: List = []
+jobs_list: List = []
+
+glassdoor_data = dict(
+    url="https://www.glassdoor.co.uk/Job/backend-jobs-SRCH_KO0,7.htm",
+    job_list="react-job-listing",
+    job_title=dict(by=By.CSS_SELECTOR, selector='[data-test="job-link"]'),
+    job_description=dict(by=By.CLASS_NAME, selector="jobDescriptionContent"),
+    job_salary=dict(by=By.CSS_SELECTOR, selector='span[data-test="detailSalary"]'),
+    job_location=dict(by=By.CSS_SELECTOR, selector='[data-test="emp-location"]'),
+    next_button=dict(by=By.CSS_SELECTOR, selector='[data-test="pagination-next"]'),
+    prev_button=dict(by=By.CSS_SELECTOR, selector='[data-test="pagination-prev"]'),
+)
 
 
 def cancel_modal():
@@ -90,35 +99,43 @@ def locate_stale_element(element, driver, strategy: str, selector: str):
     return element.text if type(element) is WebElement else "NA"
 
 
-def extract_job_details(job_cards: List["WebElement"], jobs_list: List):
+def extract_job_details(
+    job_cards: List["WebElement"], jobs_list: List, site_details: Dict
+):
+    (
+        job_title_details,
+        job_description_details,
+        job_salary_details,
+        job_location_details,
+    ) = [
+        site_details[key]
+        for key in (
+            "job_title",
+            "job_description",
+            "job_salary",
+            "job_location",
+        )
+    ]
+
     browser.implicitly_wait(10)
     for job_card in job_cards:
         click_stale_element(job_card)
         job_title = locate_stale_element(
-            "",
-            job_card,
-            By.CSS_SELECTOR,
-            '[data-test="job-link"]',
+            "", job_card, job_title_details["by"], job_title_details["selector"]
         )
         job_location = locate_stale_element(
-            "",
-            job_card,
-            By.CSS_SELECTOR,
-            '[data-test="emp-location"]',
+            "", job_card, job_location_details["by"], job_location_details["selector"]
         )
 
         job_salary = locate_stale_element(
-            "",
-            job_card,
-            By.CSS_SELECTOR,
-            'span[data-test="detailSalary"]',
+            "", job_card, job_salary_details["by"], job_salary_details["selector"]
         )
 
         job_description = locate_stale_element(
             "",
             browser,
-            By.CLASS_NAME,
-            "jobDescriptionContent",
+            job_description_details["by"],
+            job_description_details["selector"],
         )
         # check if keyword exists in jd
         skills = []
@@ -135,32 +152,42 @@ def extract_job_details(job_cards: List["WebElement"], jobs_list: List):
         jobs_list.append(job)
 
 
-def scrape_pages():
+def scrape_pages(site_details):
+    (url, job_list, prev_button_details, next_button_details,) = [
+        site_details[key]
+        for key in (
+            "url",
+            "job_list",
+            "prev_button",
+            "next_button",
+        )
+    ]
+    browser.get(url)
+    cancel_modal()
+
     prev_button: WebElement = WebDriverWait(browser, timeout).until(
         EC.presence_of_element_located(
-            (By.CSS_SELECTOR, '[data-test="pagination-prev"]')
+            (prev_button_details["by"], prev_button_details["selector"])
         )
     )
     next_button: WebElement = WebDriverWait(browser, timeout).until(
         EC.presence_of_element_located(
-            (By.CSS_SELECTOR, '[data-test="pagination-next"]')
+            (next_button_details["by"], next_button_details["selector"])
         )
     )
     # keep running till the last page is reached
     while next_button.is_enabled() or prev_button.is_enabled():
-        job_cards = browser.find_elements(By.CLASS_NAME, "react-job-listing")
-        extract_job_details(job_cards, job_details)
-        click_stale_element(next_button)
+        job_cards = browser.find_elements(By.CLASS_NAME, job_list)
+        extract_job_details(job_cards, jobs_list, site_details)
+        # click_stale_element(next_button)
         try:
             WebDriverWait(browser, timeout).until(EC.url_changes(browser.current_url))
         except TimeoutException:
             break
+    browser.quit()
 
 
-cancel_modal()
-scrape_pages()
+scrape_pages(glassdoor_data)
 
-df = pd.DataFrame(data=job_details)
-df.to_csv("dataset.csv", mode="a")
-print(df)
-browser.quit()
+df = pd.DataFrame(data=jobs_list)
+df.to_csv("dataset.csv", mode="a", header=False)
