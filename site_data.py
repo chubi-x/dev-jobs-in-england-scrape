@@ -13,8 +13,10 @@ glassdoor_data = dict(
 )
 
 indeed_data = dict(
-    url="https://uk.indeed.com/jobs?q=fullstack+developer&l=United+Kingdom&vjk=7e22b832a0f774f8",
-    cancel_modal=dict(by=By.ID, selector="onetrust-reject-all-handler"),
+    url="https://uk.indeed.com/jobs?q=fullstack+developer&l=United+Kingdom",
+    cancel_cookies=dict(by=By.ID, selector="onetrust-reject-all-handler"),
+    cancel_google=dict(by=By.CLASS_NAME, selector="icl-Card-close"),
+    cancel_modal=dict(by=By.CLASS_NAME, selector="icl-Modal-close"),
     job_list="slider_item",
     job_title=dict(by=By.CLASS_NAME, selector="jobTitle"),
     job_description=dict(by=By.ID, selector="jobDescriptionText"),
