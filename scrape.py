@@ -172,6 +172,35 @@ def extract_job_details(
         jobs_list.append(job)
 
 
+def find_paginators(prev_button_details, next_button_details):
+    prev_present = False
+    next_present = False
+    prev_button = None
+    next_button = None
+
+    try:
+        prev_button = WebDriverWait(browser, timeout).until(
+            EC.presence_of_element_located(
+                (prev_button_details["by"], prev_button_details["selector"])
+            )
+        )
+        prev_present = True
+    except TimeoutException:
+        pass
+
+    try:
+        next_button = WebDriverWait(browser, timeout).until(
+            EC.presence_of_element_located(
+                (next_button_details["by"], next_button_details["selector"])
+            )
+        )
+        next_present = True
+    except TimeoutException:
+        pass
+
+    return prev_present, next_present, prev_button, next_button
+
+
 def scrape_pages(site_details):
     (url, job_list, prev_button_details, next_button_details,) = [
         site_details[key]
@@ -183,18 +212,9 @@ def scrape_pages(site_details):
         )
     ]
     browser.get(url)
-    cancel_modal(site_details)
+    browser.implicitly_wait(10)
+    cancel_modals(site_details)
 
-    prev_button: WebElement = WebDriverWait(browser, timeout).until(
-        EC.presence_of_element_located(
-            (prev_button_details["by"], prev_button_details["selector"])
-        )
-    )
-    next_button: WebElement = WebDriverWait(browser, timeout).until(
-        EC.presence_of_element_located(
-            (next_button_details["by"], next_button_details["selector"])
-        )
-    )
     # keep running till the last page is reached
     while next_button.is_enabled() or prev_button.is_enabled():
         job_cards = browser.find_elements(By.CLASS_NAME, job_list)
