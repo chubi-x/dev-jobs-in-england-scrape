@@ -216,18 +216,41 @@ def scrape_pages(site_details):
     cancel_modals(site_details)
 
     # keep running till the last page is reached
-    while next_button.is_enabled() or prev_button.is_enabled():
-        job_cards = browser.find_elements(By.CLASS_NAME, job_list)
-        extract_job_details(job_cards, jobs_list, site_details)
-        # click_stale_element(next_button)
-        try:
-            WebDriverWait(browser, timeout).until(EC.url_changes(browser.current_url))
-        except TimeoutException:
+    while True:
+        prev_present, next_present, prev_button, next_button = find_paginators(
+            prev_button_details, next_button_details
+        )
+        print("found paginators")
+        if (prev_present and next_present) or (type(next_button) is WebElement):
+            print("next present:", next_present, "\n prev present:", prev_present)
+            job_cards = browser.find_elements(By.CLASS_NAME, job_list)
+            print("extracting jobs...")
+            extract_job_details(job_cards, jobs_list, site_details)
+            print("extracted jobs")
+            click_stale_element(next_button)
+            browser.implicitly_wait(10)
+
+            cancel_indeed_modals(site_details)
+            print("next clicked")
+            if "glassdoor" in site_details["url"]:
+                try:
+                    print("checking if there is next page")
+                    WebDriverWait(browser, timeout).until(
+                        EC.url_changes(browser.current_url)
+                    )
+                    print("there is a next page")
+                except:
+                    "no next page"
+                    break
+        else:
+            print("not satisfied")
             break
+    print("broken out of loop")
     browser.quit()
 
 
-scrape_pages(glassdoor_data)
+scrape_pages(indeed_data)
 
 df = pd.DataFrame(data=jobs_list)
 df.to_csv("dataset.csv", mode="a", header=False)
+print(df)
