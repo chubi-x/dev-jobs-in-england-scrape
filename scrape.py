@@ -53,21 +53,39 @@ browser = webdriver.Chrome(options=chrome_options)
 jobs_list: List = []
 
 
-def cancel_modal(site_details):
-    first_item = browser.find_elements(By.CLASS_NAME, site_details["job_list"])[0]
-    browser.execute_script("arguments[0].click()", first_item)
+def cancel_single_modal(by: str, selector: str):
     try:
         modal_cancel = WebDriverWait(browser, 5).until(
-            EC.element_to_be_clickable(
-                (
-                    site_details["cancel_modal"]["by"],
-                    site_details["cancel_modal"]["selector"],
-                )
-            )
+            EC.element_to_be_clickable((by, selector))
         )
         modal_cancel.click()
     except:
         pass
+
+
+def cancel_indeed_modals(site_details):
+    if "indeed" in site_details["url"]:
+        modal_list = [site_details[key] for key in ("cancel_google", "cancel_modal")]
+        for modal in modal_list:
+            cancel_single_modal(modal["by"], modal["selector"])
+            print("canceled", modal)
+
+
+def cancel_modals(site_details: Dict):
+    first_item = browser.find_elements(By.CLASS_NAME, site_details["job_list"])[0]
+    browser.execute_script("arguments[0].click()", first_item)
+
+    if "indeed" in site_details["url"]:
+        cancel_single_modal(
+            site_details["cancel_cookies"]["by"],
+            site_details["cancel_cookies"]["selector"],
+        )
+
+    else:
+        cancel_single_modal(
+            site_details["cancel_modal"]["by"],
+            site_details["cancel_modal"]["selector"],
+        )
 
 
 def click_stale_element(element):
@@ -115,9 +133,13 @@ def extract_job_details(
         )
     ]
 
-    browser.implicitly_wait(10)
+    # browser.implicitly_wait(10)
     for job_card in job_cards:
         click_stale_element(job_card)
+        browser.implicitly_wait(10)
+        if job_cards.index(job_card) == 0:
+            cancel_indeed_modals(site_details)
+
         job_title = locate_stale_element(
             "", job_card, job_title_details["by"], job_title_details["selector"]
         )
